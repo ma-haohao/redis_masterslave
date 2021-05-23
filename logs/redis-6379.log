@@ -1,0 +1,882 @@
+74044:M 17 May 2021 22:21:42.188 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 17 May 2021 22:21:42.189 * Full resync requested by replica 127.0.0.1:6371
+74044:M 17 May 2021 22:21:42.189 * Replication backlog created, my new replication IDs are '3609a3613698c0c62f47f1a4d58bd1ba18556613' and '0000000000000000000000000000000000000000'
+74044:M 17 May 2021 22:21:42.189 * Starting BGSAVE for SYNC with target: disk
+74044:M 17 May 2021 22:21:42.190 * Background saving started by pid 75673
+75673:C 17 May 2021 22:21:42.191 * DB saved on disk
+74044:M 17 May 2021 22:21:42.256 * Background saving terminated with success
+74044:M 17 May 2021 22:21:42.257 * Synchronization with replica 127.0.0.1:6371 succeeded
+74044:M 17 May 2021 22:40:01.944 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 17 May 2021 22:40:01.945 * Full resync requested by replica 127.0.0.1:6372
+74044:M 17 May 2021 22:40:01.945 * Starting BGSAVE for SYNC with target: disk
+74044:M 17 May 2021 22:40:01.946 * Background saving started by pid 79255
+79255:C 17 May 2021 22:40:01.948 * DB saved on disk
+74044:M 17 May 2021 22:40:01.986 * Background saving terminated with success
+74044:M 17 May 2021 22:40:01.986 * Synchronization with replica 127.0.0.1:6372 succeeded
+74044:M 18 May 2021 01:12:32.468 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 01:12:32.471 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 01:12:32.473 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 01:12:32.477 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 01:12:32.491 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 01:12:32.492 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 8177.
+74044:M 18 May 2021 01:12:32.493 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 01:12:32.493 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 8177.
+74044:M 18 May 2021 03:07:50.277 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 03:07:50.431 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 03:07:50.432 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 03:07:50.434 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 03:07:50.438 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 03:07:50.439 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 8289.
+74044:M 18 May 2021 03:07:50.439 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 03:07:50.440 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 8289.
+74044:M 18 May 2021 03:48:16.370 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 03:48:16.627 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 03:48:16.629 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 03:48:16.629 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 03:48:16.635 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 03:48:16.635 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 8387.
+74044:M 18 May 2021 03:48:16.636 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 03:48:16.636 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 8387.
+74044:M 18 May 2021 03:57:54.189 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 03:57:54.247 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 03:57:54.248 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 03:57:54.248 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 03:57:54.252 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 03:57:54.252 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 8457.
+74044:M 18 May 2021 03:57:54.253 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 03:57:54.253 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 8457.
+74044:M 18 May 2021 05:58:41.082 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 05:58:41.083 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 05:58:41.083 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 05:58:41.084 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 05:58:41.086 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 05:58:41.087 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 8527.
+74044:M 18 May 2021 05:58:41.087 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 05:58:41.087 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 8527.
+74044:M 18 May 2021 06:30:01.926 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 06:30:01.976 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 06:30:01.977 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 06:30:01.977 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 06:30:01.979 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 06:30:01.979 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 8597.
+74044:M 18 May 2021 06:30:01.980 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 06:30:01.980 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 8597.
+74044:M 18 May 2021 09:00:01.865 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 09:00:01.866 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 09:00:01.869 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 09:00:01.870 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 13511.
+74044:M 18 May 2021 09:00:01.871 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 09:00:01.872 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 13511.
+74044:M 18 May 2021 09:43:05.228 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 09:43:05.794 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 09:43:05.796 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 09:43:05.796 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 09:43:05.802 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 09:43:05.803 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 14729.
+74044:M 18 May 2021 09:43:05.804 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 09:43:05.806 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 14729.
+74044:M 18 May 2021 10:00:13.811 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 10:00:13.859 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 10:00:13.860 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 10:00:13.860 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 10:00:13.864 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 10:00:13.864 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 14799.
+74044:M 18 May 2021 10:00:13.865 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 10:00:13.865 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 14799.
+74044:M 18 May 2021 10:12:08.918 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 10:12:09.690 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 10:12:09.690 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 10:12:09.691 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 10:12:09.694 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 10:12:09.694 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 14911.
+74044:M 18 May 2021 10:12:09.694 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 10:12:09.695 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 14911.
+74044:M 18 May 2021 13:03:18.704 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 13:03:18.705 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 13:03:18.708 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 13:03:18.708 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 25649.
+74044:M 18 May 2021 13:03:18.709 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 13:03:18.709 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 25649.
+74044:M 18 May 2021 13:21:23.630 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 13:21:23.687 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 13:21:23.688 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 13:21:23.688 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 13:21:23.693 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 13:21:23.694 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 25733.
+74044:M 18 May 2021 13:21:23.695 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 13:21:23.695 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 25733.
+74044:M 18 May 2021 13:59:27.494 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 13:59:27.496 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 13:59:27.497 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 13:59:27.497 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 13:59:27.502 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 13:59:27.503 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 25859.
+74044:M 18 May 2021 13:59:27.504 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 13:59:27.505 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 25859.
+74044:M 18 May 2021 17:54:40.727 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 17:54:40.729 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 17:54:40.731 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 17:54:40.732 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 41399.
+74044:M 18 May 2021 17:54:40.735 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 17:54:40.735 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 41399.
+74044:M 18 May 2021 18:41:54.793 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 18:41:54.795 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 18:41:54.795 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 44423.
+74044:M 18 May 2021 18:41:54.843 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 18 May 2021 18:41:54.844 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 18:41:54.849 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 18:41:54.849 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 44423.
+74044:M 18 May 2021 18:56:46.107 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 18 May 2021 18:56:46.108 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 18 May 2021 18:56:46.109 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 18 May 2021 18:56:46.111 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 18 May 2021 18:56:46.111 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 45557.
+74044:M 18 May 2021 18:56:46.111 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 18 May 2021 18:56:46.112 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 45557.
+74044:M 19 May 2021 00:54:32.812 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 00:54:32.867 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 00:54:32.899 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 00:54:32.899 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 00:54:32.902 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 00:54:32.902 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 74957.
+74044:M 19 May 2021 00:54:32.903 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 00:54:32.903 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 74957.
+74044:M 19 May 2021 00:56:38.262 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 00:56:38.314 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 00:56:38.315 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 00:56:38.316 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 00:56:38.317 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 00:56:38.317 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75013.
+74044:M 19 May 2021 00:56:38.318 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 00:56:38.318 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75013.
+74044:M 19 May 2021 00:58:35.519 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 00:58:35.574 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 00:58:35.574 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 00:58:35.575 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 00:58:35.576 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 00:58:35.577 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75083.
+74044:M 19 May 2021 00:58:35.577 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 00:58:35.577 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75083.
+74044:M 19 May 2021 01:00:31.592 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 01:00:31.640 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 01:00:31.641 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 01:00:31.642 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 01:00:31.645 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 01:00:31.645 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75153.
+74044:M 19 May 2021 01:00:31.645 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 01:00:31.646 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75153.
+74044:M 19 May 2021 01:14:35.875 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 01:14:35.938 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 01:14:35.938 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 01:14:35.939 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 01:14:35.941 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 01:14:35.941 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 75209.
+74044:M 19 May 2021 01:14:35.942 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 01:14:35.942 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 75209.
+74044:M 19 May 2021 01:19:35.587 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 01:19:35.588 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 01:19:35.591 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 01:19:35.591 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 01:19:35.603 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 01:19:35.603 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75321.
+74044:M 19 May 2021 01:19:35.606 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 01:19:35.606 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75321.
+74044:M 19 May 2021 01:38:49.212 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 01:38:49.262 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 01:38:49.262 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 01:38:49.263 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 01:38:49.265 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 01:38:49.266 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75587.
+74044:M 19 May 2021 01:38:49.266 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 01:38:49.266 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75587.
+74044:M 19 May 2021 01:54:39.602 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 01:54:39.603 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 01:54:39.603 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 01:54:39.603 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 01:54:39.605 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 01:54:39.605 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 75923.
+74044:M 19 May 2021 01:54:39.605 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 01:54:39.605 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 75923.
+74044:M 19 May 2021 02:10:42.299 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 02:10:42.299 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 02:10:42.300 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 02:10:42.300 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 02:10:42.303 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 02:10:42.303 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76063.
+74044:M 19 May 2021 02:10:42.303 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 02:10:42.304 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76063.
+74044:M 19 May 2021 02:12:38.835 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 02:12:38.835 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 02:12:38.836 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 02:12:38.836 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 02:12:38.837 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 02:12:38.838 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76119.
+74044:M 19 May 2021 02:12:38.838 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 02:12:38.838 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76119.
+74044:M 19 May 2021 02:15:39.048 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 02:15:39.048 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 02:15:39.049 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 02:15:39.049 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 02:15:39.050 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 02:15:39.050 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76259.
+74044:M 19 May 2021 02:15:39.050 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 02:15:39.050 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76259.
+74044:M 19 May 2021 02:38:10.130 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 02:38:10.284 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 02:38:10.285 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 02:38:10.286 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 02:38:10.291 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 02:38:10.291 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76665.
+74044:M 19 May 2021 02:38:10.292 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 02:38:10.292 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76665.
+74044:M 19 May 2021 03:08:51.222 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 03:08:51.277 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 03:08:51.278 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 03:08:51.279 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 03:08:51.284 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 03:08:51.285 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76791.
+74044:M 19 May 2021 03:08:51.285 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 03:08:51.286 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76791.
+74044:M 19 May 2021 03:55:27.471 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 03:55:27.471 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 03:55:27.472 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 03:55:27.472 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 03:55:27.473 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 03:55:27.473 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 76973.
+74044:M 19 May 2021 03:55:27.474 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 03:55:27.474 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 76973.
+74044:M 19 May 2021 04:10:54.535 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 04:10:54.902 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 04:10:54.902 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 04:10:54.904 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 04:10:54.906 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 04:10:54.906 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 77197.
+74044:M 19 May 2021 04:10:54.907 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 04:10:54.907 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 77197.
+74044:M 19 May 2021 04:28:27.818 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 04:28:28.075 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 04:28:28.076 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 04:28:28.077 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 04:28:28.081 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 04:28:28.081 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 77267.
+74044:M 19 May 2021 04:28:28.082 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 04:28:28.082 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 77267.
+74044:M 19 May 2021 04:35:05.591 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 04:35:05.866 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 04:35:05.875 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 04:35:05.876 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 04:35:05.878 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 04:35:05.879 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 77323.
+74044:M 19 May 2021 04:35:05.880 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 04:35:05.880 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 77323.
+74044:M 19 May 2021 06:35:51.908 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 06:35:52.062 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 06:35:52.063 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 06:35:52.064 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 06:35:52.068 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 06:35:52.068 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 77393.
+74044:M 19 May 2021 06:35:52.069 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 06:35:52.070 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 77393.
+74044:M 19 May 2021 09:00:01.178 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 09:00:01.836 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 09:00:01.837 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 09:00:01.838 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 09:00:01.847 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 09:00:01.848 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 77477.
+74044:M 19 May 2021 09:00:01.849 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 09:00:01.849 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 77477.
+74044:M 19 May 2021 09:46:25.735 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 09:46:25.782 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 09:46:25.783 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 09:46:25.784 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 09:46:25.788 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 09:46:25.789 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 78905.
+74044:M 19 May 2021 09:46:25.789 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 09:46:25.790 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 78905.
+74044:M 19 May 2021 10:05:16.930 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 10:05:17.693 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 10:05:17.694 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 10:05:17.694 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 10:05:17.696 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 10:05:17.697 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 79017.
+74044:M 19 May 2021 10:05:17.697 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 10:05:17.697 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 79017.
+74044:M 19 May 2021 10:21:46.605 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 10:21:46.654 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 10:21:46.654 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 10:21:46.655 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 10:21:46.657 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 10:21:46.658 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 79087.
+74044:M 19 May 2021 10:21:46.658 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 10:21:46.658 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 79087.
+74044:M 19 May 2021 10:37:32.093 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 10:37:32.276 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 10:37:32.276 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 10:37:32.276 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 10:37:32.279 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 10:37:32.279 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 79157.
+74044:M 19 May 2021 10:37:32.279 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 10:37:32.280 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 79157.
+74044:M 19 May 2021 13:14:49.697 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 13:14:49.698 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 13:14:49.700 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 13:14:49.700 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 90651.
+74044:M 19 May 2021 13:14:49.700 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 13:14:49.701 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 90651.
+74044:M 19 May 2021 14:27:53.329 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 14:27:53.333 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 14:27:53.333 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 14:27:53.334 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 14:27:53.338 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 14:27:53.338 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 95411.
+74044:M 19 May 2021 14:27:53.341 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 14:27:53.342 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 95411.
+74044:M 19 May 2021 14:45:20.695 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 14:45:20.696 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 14:45:20.696 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 14:45:20.696 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 14:45:20.698 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 14:45:20.700 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 95481.
+74044:M 19 May 2021 14:45:20.701 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 14:45:20.702 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 95481.
+74044:M 19 May 2021 15:00:51.526 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 15:00:51.880 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 15:00:51.880 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 15:00:51.881 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 15:00:51.883 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 15:00:51.884 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 95621.
+74044:M 19 May 2021 15:00:51.885 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 15:00:51.885 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 95621.
+74044:M 19 May 2021 15:04:08.779 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 15:04:08.828 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 15:04:08.829 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 15:04:08.830 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 15:04:08.834 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 15:04:08.835 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 95691.
+74044:M 19 May 2021 15:04:08.836 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 15:04:08.837 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 95691.
+74044:M 19 May 2021 15:22:11.362 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 15:22:11.520 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 15:22:11.520 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 15:22:11.521 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 15:22:11.523 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 15:22:11.523 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 95761.
+74044:M 19 May 2021 15:22:11.523 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 15:22:11.523 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 95761.
+74044:M 19 May 2021 17:23:37.611 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 17:23:37.612 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 17:23:37.612 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 17:23:37.612 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 17:23:37.614 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 17:23:37.615 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 95887.
+74044:M 19 May 2021 17:23:37.615 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 17:23:37.615 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 95887.
+74044:M 19 May 2021 17:25:28.922 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 17:25:28.923 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 17:25:28.923 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 95957.
+74044:M 19 May 2021 17:25:28.959 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 17:25:28.960 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 17:25:28.960 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 95957.
+74044:M 19 May 2021 17:50:55.339 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 17:50:55.403 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 17:50:55.404 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 17:50:55.405 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 17:50:55.409 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 17:50:55.410 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 97077.
+74044:M 19 May 2021 17:50:55.411 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 17:50:55.412 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 97077.
+74044:M 19 May 2021 18:09:05.167 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 18:09:05.323 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 18:09:05.323 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 18:09:05.324 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 18:09:05.326 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 18:09:05.326 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 97147.
+74044:M 19 May 2021 18:09:05.326 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 18:09:05.327 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 97147.
+74044:M 19 May 2021 19:29:04.507 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 19:29:04.972 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 19:29:04.974 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 19:29:04.976 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 19:29:04.990 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 19:29:04.991 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 97287.
+74044:M 19 May 2021 19:29:04.991 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 19:29:04.992 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 97287.
+74044:M 19 May 2021 20:17:01.143 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 20:17:01.145 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 20:17:01.146 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 98841.
+74044:M 19 May 2021 20:17:01.199 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 20:17:01.200 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 20:17:01.200 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 98841.
+74044:M 19 May 2021 21:17:09.214 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 19 May 2021 21:17:09.280 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 19 May 2021 21:17:09.281 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 19 May 2021 21:17:09.283 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 19 May 2021 21:17:09.291 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 19 May 2021 21:17:09.292 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 98911.
+74044:M 19 May 2021 21:17:09.293 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 19 May 2021 21:17:09.293 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 98911.
+74044:M 20 May 2021 00:29:23.681 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 00:29:24.048 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 00:29:24.049 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 00:29:24.054 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 00:29:24.058 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 00:29:24.059 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 112463.
+74044:M 20 May 2021 00:29:24.060 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 00:29:24.060 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 112463.
+74044:M 20 May 2021 01:57:11.681 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 01:57:11.942 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 01:57:11.943 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 01:57:11.943 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 01:57:11.949 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 01:57:11.950 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 112589.
+74044:M 20 May 2021 01:57:11.950 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 01:57:11.970 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 112589.
+74044:M 20 May 2021 03:09:53.092 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 03:09:53.092 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 03:09:53.092 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 03:09:53.092 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 03:09:53.094 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 03:09:53.094 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 112659.
+74044:M 20 May 2021 03:09:53.094 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 03:09:53.094 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 112659.
+74044:M 20 May 2021 03:53:47.527 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 03:53:47.687 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 03:53:47.688 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 03:53:47.689 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 03:53:47.693 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 03:53:47.694 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 112729.
+74044:M 20 May 2021 03:53:47.695 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 03:53:47.695 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 112729.
+74044:M 20 May 2021 05:54:34.900 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 05:54:34.900 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 05:54:34.901 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 05:54:34.901 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 05:54:34.903 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 05:54:34.903 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 112813.
+74044:M 20 May 2021 05:54:34.903 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 05:54:34.904 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 112813.
+74044:M 20 May 2021 07:55:21.548 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 07:55:21.702 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 07:55:21.705 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 07:55:21.705 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 07:55:21.709 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 07:55:21.709 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 112883.
+74044:M 20 May 2021 07:55:21.710 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 07:55:21.710 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 112883.
+74044:M 20 May 2021 07:58:18.699 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 07:58:19.456 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 07:58:19.457 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 07:58:19.458 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 07:58:19.460 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 07:58:19.460 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 113009.
+74044:M 20 May 2021 07:58:19.460 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 07:58:19.460 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 113009.
+74044:M 20 May 2021 08:16:02.225 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 08:16:02.380 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 08:16:02.381 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 08:16:02.383 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 08:16:02.386 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 08:16:02.386 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 113065.
+74044:M 20 May 2021 08:16:02.387 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 08:16:02.387 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 113065.
+74044:M 20 May 2021 08:33:22.543 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 08:33:22.544 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 08:33:22.548 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 08:33:22.549 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 08:33:22.550 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 08:33:22.551 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 113135.
+74044:M 20 May 2021 08:33:22.551 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 08:33:22.551 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 113135.
+74044:M 20 May 2021 10:34:09.602 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 10:34:09.602 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 10:34:09.603 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 10:34:09.603 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 10:34:09.605 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 10:34:09.605 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 113205.
+74044:M 20 May 2021 10:34:09.605 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 10:34:09.605 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 113205.
+74044:M 20 May 2021 11:15:01.341 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 11:15:01.341 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 11:15:01.342 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 11:15:01.342 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 11:15:01.343 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 11:15:01.343 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 113275.
+74044:M 20 May 2021 11:15:01.344 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 11:15:01.344 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 113275.
+74044:M 20 May 2021 13:15:28.462 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 13:15:29.230 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 13:15:29.232 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 13:15:29.233 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 13:15:29.239 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 13:15:29.239 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 118203.
+74044:M 20 May 2021 13:15:29.240 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 13:15:29.240 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 118203.
+74044:M 20 May 2021 15:16:17.047 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 15:16:17.106 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 15:16:17.113 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 15:16:17.113 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 15:16:17.115 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 15:16:17.116 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 118273.
+74044:M 20 May 2021 15:16:17.116 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 15:16:17.116 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 118273.
+74044:M 20 May 2021 15:45:22.246 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 20 May 2021 15:45:22.304 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 20 May 2021 15:45:22.304 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 20 May 2021 15:45:22.305 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 20 May 2021 15:45:22.307 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 20 May 2021 15:45:22.307 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 118343.
+74044:M 20 May 2021 15:45:22.307 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 20 May 2021 15:45:22.307 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 118343.
+74044:M 21 May 2021 01:38:45.737 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 01:38:45.738 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 01:38:45.741 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 01:38:45.741 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 165047.
+74044:M 21 May 2021 01:38:45.742 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 01:38:45.744 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 165047.
+74044:M 21 May 2021 03:10:54.291 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 03:10:54.659 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 03:10:54.662 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 03:10:54.663 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 03:10:54.673 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 03:10:54.673 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 165159.
+74044:M 21 May 2021 03:10:54.675 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 03:10:54.675 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 165159.
+74044:M 21 May 2021 05:03:09.189 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 05:03:09.189 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 05:03:09.189 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 05:03:09.190 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 05:03:09.191 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 05:03:09.192 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 165229.
+74044:M 21 May 2021 05:03:09.194 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 05:03:09.194 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 165229.
+74044:M 21 May 2021 07:03:56.386 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 07:03:56.386 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 07:03:56.386 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 07:03:56.387 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 07:03:56.388 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 07:03:56.388 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 165299.
+74044:M 21 May 2021 07:03:56.388 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 07:03:56.389 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 165299.
+74044:M 21 May 2021 08:33:04.153 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 08:33:04.166 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 08:33:04.167 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 08:33:04.167 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 08:33:04.177 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 08:33:04.177 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 165369.
+74044:M 21 May 2021 08:33:04.178 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 08:33:04.178 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 165369.
+74044:M 21 May 2021 09:41:40.914 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 09:41:41.112 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 09:41:41.112 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 09:41:41.113 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 09:41:41.115 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 09:41:41.116 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 168617.
+74044:M 21 May 2021 09:41:41.116 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 09:41:41.116 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 168617.
+74044:M 21 May 2021 09:59:32.341 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 09:59:33.102 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 09:59:33.108 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 09:59:33.108 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 09:59:33.114 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 09:59:33.114 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 168729.
+74044:M 21 May 2021 09:59:33.115 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 09:59:33.115 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 168729.
+74044:M 21 May 2021 10:15:01.158 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 10:15:01.158 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 10:15:01.158 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 10:15:01.158 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 10:15:01.159 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 10:15:01.159 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 168799.
+74044:M 21 May 2021 10:15:01.160 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 10:15:01.160 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 168799.
+74044:M 21 May 2021 10:36:52.482 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 10:36:52.487 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 10:36:52.488 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 10:36:52.489 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 10:36:52.492 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 10:36:52.492 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 170381.
+74044:M 21 May 2021 10:36:52.494 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 10:36:52.494 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 170381.
+74044:M 21 May 2021 10:41:29.573 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 10:41:29.575 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 10:41:29.577 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 10:41:29.578 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 10:41:29.609 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 10:41:29.609 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 170451.
+74044:M 21 May 2021 10:41:29.610 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 10:41:29.611 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 170451.
+74044:M 21 May 2021 11:30:06.879 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 11:30:06.880 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 11:30:06.880 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 11:30:06.880 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 11:30:06.883 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 11:30:06.883 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 171389.
+74044:M 21 May 2021 11:30:06.884 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 11:30:06.884 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 171389.
+74044:M 21 May 2021 11:41:14.195 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 11:41:14.196 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 11:41:14.197 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 11:41:14.197 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 11:41:14.367 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 11:41:14.368 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 172173.
+74044:M 21 May 2021 11:41:14.407 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 11:41:14.408 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 172173.
+74044:M 21 May 2021 12:56:35.097 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 12:56:35.112 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 12:56:35.112 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 12:56:35.113 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 12:56:35.119 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 12:56:35.121 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 177969.
+74044:M 21 May 2021 12:56:35.122 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 12:56:35.123 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 177969.
+74044:M 21 May 2021 16:37:19.738 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 16:37:19.740 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 16:37:19.742 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 16:37:19.742 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 195945.
+74044:M 21 May 2021 16:37:19.743 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 16:37:19.743 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 195945.
+74044:M 21 May 2021 18:33:03.497 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 18:33:03.761 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 18:33:03.761 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 18:33:03.762 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 18:33:03.765 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 18:33:03.765 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 205241.
+74044:M 21 May 2021 18:33:03.765 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 18:33:03.766 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 205241.
+74044:M 21 May 2021 18:59:18.768 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 18:59:18.929 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 18:59:18.931 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 18:59:18.932 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 18:59:18.936 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 18:59:18.936 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 205297.
+74044:M 21 May 2021 18:59:18.938 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 18:59:18.938 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 205297.
+74044:M 21 May 2021 19:16:50.228 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 19:16:50.891 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 19:16:50.892 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 19:16:50.892 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 19:16:50.894 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 19:16:50.895 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 14 bytes of backlog starting from offset 205409.
+74044:M 21 May 2021 19:16:50.895 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 19:16:50.895 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 14 bytes of backlog starting from offset 205409.
+74044:M 21 May 2021 19:21:47.228 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 19:21:47.229 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 19:21:47.230 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 19:21:47.231 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 19:21:47.233 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 19:21:47.234 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 205479.
+74044:M 21 May 2021 19:21:47.234 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 19:21:47.235 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 205479.
+74044:M 21 May 2021 19:33:43.678 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 19:33:43.679 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 19:33:43.679 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 19:33:43.679 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 19:33:43.681 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 19:33:43.681 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 205689.
+74044:M 21 May 2021 19:33:43.682 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 19:33:43.682 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 205689.
+74044:M 21 May 2021 19:36:53.808 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 21 May 2021 19:36:53.809 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 19:36:53.809 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 21 May 2021 19:36:53.810 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 19:36:53.813 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 19:36:53.813 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 205759.
+74044:M 21 May 2021 19:36:53.814 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 19:36:53.817 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 205759.
+74044:M 21 May 2021 22:43:12.877 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 21 May 2021 22:43:12.888 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 21 May 2021 22:43:12.890 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 21 May 2021 22:43:12.891 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 218919.
+74044:M 21 May 2021 22:43:12.891 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 21 May 2021 22:43:12.892 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 218919.
+74044:M 22 May 2021 01:13:36.742 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 01:13:36.742 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 01:13:36.744 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 01:13:36.744 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 228901.
+74044:M 22 May 2021 01:13:36.744 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 01:13:36.744 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 228901.
+74044:M 22 May 2021 01:31:18.688 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 01:31:18.744 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 01:31:18.745 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 01:31:18.745 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 01:31:18.749 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 01:31:18.750 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229027.
+74044:M 22 May 2021 01:31:18.750 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 01:31:18.751 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229027.
+74044:M 22 May 2021 03:11:55.901 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 03:11:55.901 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 03:11:55.902 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 03:11:55.902 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 03:11:55.904 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 03:11:55.904 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229097.
+74044:M 22 May 2021 03:11:55.904 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 03:11:55.904 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229097.
+74044:M 22 May 2021 04:37:08.113 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 04:37:08.113 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 04:37:08.114 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 04:37:08.114 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 04:37:08.115 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 04:37:08.115 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229167.
+74044:M 22 May 2021 04:37:08.116 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 04:37:08.117 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229167.
+74044:M 22 May 2021 04:52:03.746 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 04:52:03.746 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 04:52:03.747 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 04:52:03.747 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 04:52:03.748 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 04:52:03.749 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229237.
+74044:M 22 May 2021 04:52:03.749 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 04:52:03.749 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229237.
+74044:M 22 May 2021 05:24:10.575 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 05:24:10.575 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 05:24:10.576 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 05:24:10.576 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 05:24:10.578 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 05:24:10.578 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229307.
+74044:M 22 May 2021 05:24:10.578 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 05:24:10.578 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229307.
+74044:M 22 May 2021 05:41:53.163 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 05:41:53.426 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 05:41:53.427 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 05:41:53.427 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 05:41:53.429 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 05:41:53.429 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229405.
+74044:M 22 May 2021 05:41:53.430 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 05:41:53.430 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229405.
+74044:M 22 May 2021 07:42:40.193 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 07:42:40.354 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 07:42:40.356 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 07:42:40.357 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 07:42:40.360 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 07:42:40.361 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229475.
+74044:M 22 May 2021 07:42:40.362 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 07:42:40.362 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229475.
+74044:M 22 May 2021 09:43:27.110 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 09:43:27.168 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 09:43:27.169 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 09:43:27.170 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 09:43:27.174 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 09:43:27.175 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229545.
+74044:M 22 May 2021 09:43:27.175 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 09:43:27.176 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229545.
+74044:M 22 May 2021 10:03:47.326 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 10:03:47.479 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 10:03:47.480 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 10:03:47.481 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 10:03:47.482 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 10:03:47.482 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229615.
+74044:M 22 May 2021 10:03:47.482 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 10:03:47.483 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229615.
+74044:M 22 May 2021 10:15:02.160 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 10:15:02.160 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 10:15:02.160 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 10:15:02.160 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 10:15:02.161 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 10:15:02.161 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 229685.
+74044:M 22 May 2021 10:15:02.162 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 10:15:02.162 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 229685.
+74044:M 22 May 2021 11:21:40.638 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 11:21:40.998 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 11:21:40.998 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 11:21:40.999 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 11:21:41.001 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 11:21:41.001 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 234613.
+74044:M 22 May 2021 11:21:41.002 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 11:21:41.002 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 234613.
+74044:M 22 May 2021 11:58:32.930 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 11:58:33.598 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 11:58:33.600 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 11:58:33.601 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 11:58:33.607 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 11:58:33.607 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 234627.
+74044:M 22 May 2021 11:58:33.610 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 11:58:33.611 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 234627.
+74044:M 22 May 2021 12:37:05.837 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 12:37:06.400 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 12:37:06.401 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 12:37:06.402 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 12:37:06.405 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 12:37:06.405 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 234697.
+74044:M 22 May 2021 12:37:06.406 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 12:37:06.406 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 234697.
+74044:M 22 May 2021 12:38:21.097 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 12:38:21.153 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 12:38:21.155 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 12:38:21.155 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 12:38:21.158 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 12:38:21.159 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 234711.
+74044:M 22 May 2021 12:38:21.159 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 12:38:21.159 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 234711.
+74044:M 22 May 2021 14:02:27.715 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 14:02:28.282 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 14:02:28.283 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 14:02:28.283 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 14:02:28.286 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 14:02:28.287 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 234739.
+74044:M 22 May 2021 14:02:28.287 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 14:02:28.287 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 234739.
+74044:M 22 May 2021 18:37:15.214 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 22 May 2021 18:37:15.218 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 18:37:15.221 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 22 May 2021 18:37:15.221 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 18:37:15.231 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 18:37:15.232 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 239107.
+74044:M 22 May 2021 18:37:15.237 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 18:37:15.239 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 239107.
+74044:M 22 May 2021 19:04:58.259 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 22 May 2021 19:04:58.264 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 22 May 2021 19:04:58.264 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 241095.
+74044:M 22 May 2021 19:04:58.293 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 22 May 2021 19:04:58.295 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 22 May 2021 19:04:58.295 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 241095.
+74044:M 23 May 2021 09:00:36.360 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 09:00:36.363 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 09:00:36.364 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 269501.
+74044:M 23 May 2021 09:00:36.560 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 23 May 2021 09:00:36.561 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 09:00:36.589 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 09:00:36.589 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 269501.
+74044:M 23 May 2021 13:12:09.129 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 23 May 2021 13:12:09.375 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 13:12:09.412 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 23 May 2021 13:12:09.501 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 13:12:09.846 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 13:12:09.854 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 269935.
+74044:M 23 May 2021 13:12:09.864 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 13:12:09.929 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 269935.
+74044:M 23 May 2021 15:22:02.638 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 15:22:02.639 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 15:22:02.644 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 15:22:02.644 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 280351.
+74044:M 23 May 2021 15:22:02.645 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 15:22:02.645 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 280351.
+74044:M 23 May 2021 15:47:02.333 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6371
+74044:M 23 May 2021 15:47:02.336 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 15:47:02.337 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6372
+74044:M 23 May 2021 15:47:02.337 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 15:47:02.352 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 15:47:02.353 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 282269.
+74044:M 23 May 2021 15:47:02.354 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 15:47:02.355 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 282269.
+74044:M 23 May 2021 18:29:37.264 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 18:29:37.266 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 18:29:37.267 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 294645.
+74044:M 23 May 2021 18:29:37.520 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 18:29:37.523 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 18:29:37.523 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 294645.
+74044:M 23 May 2021 18:52:42.384 # Connection with replica 127.0.0.1:6371 lost.
+74044:M 23 May 2021 18:52:42.388 * Replica 127.0.0.1:6371 asks for synchronization
+74044:M 23 May 2021 18:52:42.389 * Partial resynchronization request from 127.0.0.1:6371 accepted. Sending 0 bytes of backlog starting from offset 296283.
+74044:M 23 May 2021 18:52:42.539 # Connection with replica 127.0.0.1:6372 lost.
+74044:M 23 May 2021 18:52:42.542 * Replica 127.0.0.1:6372 asks for synchronization
+74044:M 23 May 2021 18:52:42.542 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 0 bytes of backlog starting from offset 296283.
+74044:M 23 May 2021 19:12:09.227 * 1 changes in 3600 seconds. Saving...
+74044:M 23 May 2021 19:12:09.229 * Background saving started by pid 65101
+65101:C 23 May 2021 19:12:09.233 * DB saved on disk
+74044:M 23 May 2021 19:12:09.331 * Background saving terminated with success
+74044:signal-handler (1621770348) Received SIGTERM scheduling shutdown...
+74044:M 23 May 2021 19:45:48.888 # User requested shutdown...
+74044:M 23 May 2021 19:45:48.888 * Saving the final RDB snapshot before exiting.
+74044:M 23 May 2021 19:45:48.893 * DB saved on disk
+74044:M 23 May 2021 19:45:48.893 * Removing the pid file.
+74044:M 23 May 2021 19:45:48.894 # Redis is now ready to exit, bye bye...

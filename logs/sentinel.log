@@ -1,0 +1,427 @@
+81493:X 17 May 2021 22:51:14.639 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+81493:X 17 May 2021 22:51:14.640 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=81493, just started
+81493:X 17 May 2021 22:51:14.640 # Configuration loaded
+81493:X 17 May 2021 22:51:14.642 * Increased maximum number of open files to 10032 (it was originally set to 256).
+81493:X 17 May 2021 22:51:14.642 * monotonic clock: POSIX clock_gettime
+81493:X 17 May 2021 22:51:14.644 * Running mode=sentinel, port=26379.
+81493:X 17 May 2021 22:51:14.646 # Sentinel ID is 384fa05d5aa0c0cff1fcb5ad503bb7f88295fb39
+81493:X 17 May 2021 22:51:14.647 # +monitor master macrog-master 127.0.0.1 6370 quorum 2
+81493:X 17 May 2021 22:51:44.654 # +sdown master macrog-master 127.0.0.1 6370
+83785:X 17 May 2021 23:03:17.293 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+83785:X 17 May 2021 23:03:17.294 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=83785, just started
+83785:X 17 May 2021 23:03:17.294 # Configuration loaded
+83785:X 17 May 2021 23:03:17.296 * Increased maximum number of open files to 10032 (it was originally set to 256).
+83785:X 17 May 2021 23:03:17.296 * monotonic clock: POSIX clock_gettime
+83785:X 17 May 2021 23:03:17.297 # Warning: Could not create server TCP listening socket *:26379: bind: Address already in use
+83785:X 17 May 2021 23:03:17.297 # Failed listening on port 26379 (TCP), aborting.
+81493:X 18 May 2021 01:12:32.468 # +tilt #tilt mode entered
+81493:X 18 May 2021 01:13:01.729 # -tilt #tilt mode exited
+81493:X 18 May 2021 03:07:49.669 # +tilt #tilt mode entered
+81493:X 18 May 2021 03:07:59.281 # +tilt #tilt mode entered
+81493:X 18 May 2021 03:08:29.321 # -tilt #tilt mode exited
+81493:X 18 May 2021 03:48:15.865 # +tilt #tilt mode entered
+81493:X 18 May 2021 03:48:45.957 # -tilt #tilt mode exited
+81493:X 18 May 2021 03:57:53.481 # +tilt #tilt mode entered
+81493:X 18 May 2021 03:58:23.499 # -tilt #tilt mode exited
+81493:X 18 May 2021 05:58:40.499 # +tilt #tilt mode entered
+81493:X 18 May 2021 05:59:10.505 # -tilt #tilt mode exited
+81493:X 18 May 2021 06:30:01.332 # +tilt #tilt mode entered
+81493:X 18 May 2021 06:30:31.338 # -tilt #tilt mode exited
+81493:X 18 May 2021 09:00:01.097 # +tilt #tilt mode entered
+81493:X 18 May 2021 09:00:31.190 # -tilt #tilt mode exited
+81493:X 18 May 2021 09:43:05.026 # +tilt #tilt mode entered
+81493:X 18 May 2021 09:43:35.061 # -tilt #tilt mode exited
+81493:X 18 May 2021 10:00:13.096 # +tilt #tilt mode entered
+81493:X 18 May 2021 10:00:43.111 # -tilt #tilt mode exited
+81493:X 18 May 2021 10:12:08.918 # +tilt #tilt mode entered
+81493:X 18 May 2021 10:12:38.946 # -tilt #tilt mode exited
+81493:X 18 May 2021 12:21:26.944 # +tilt #tilt mode entered
+81493:X 18 May 2021 12:21:56.953 # -tilt #tilt mode exited
+81493:X 18 May 2021 13:03:17.935 # +tilt #tilt mode entered
+81493:X 18 May 2021 13:03:48.009 # -tilt #tilt mode exited
+81493:X 18 May 2021 13:21:22.922 # +tilt #tilt mode entered
+81493:X 18 May 2021 13:21:52.922 # -tilt #tilt mode exited
+81493:X 18 May 2021 13:59:27.495 # +tilt #tilt mode entered
+81493:X 18 May 2021 13:59:28.123 # +tilt #tilt mode entered
+81493:X 18 May 2021 13:59:58.160 # -tilt #tilt mode exited
+81493:X 18 May 2021 17:54:40.715 # +tilt #tilt mode entered
+81493:X 18 May 2021 17:55:09.998 # -tilt #tilt mode exited
+81493:X 18 May 2021 18:41:54.030 # +tilt #tilt mode entered
+81493:X 18 May 2021 18:42:03.207 # +tilt #tilt mode entered
+81493:X 18 May 2021 18:42:33.214 # -tilt #tilt mode exited
+81493:X 18 May 2021 18:54:27.495 # +tilt #tilt mode entered
+81493:X 18 May 2021 18:54:57.544 # -tilt #tilt mode exited
+81493:X 18 May 2021 18:56:45.202 # +tilt #tilt mode entered
+81493:X 18 May 2021 18:57:15.216 # -tilt #tilt mode exited
+81493:X 18 May 2021 21:41:51.141 # +tilt #tilt mode entered
+81493:X 18 May 2021 21:42:21.164 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:48:11.032 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:48:41.032 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:49:33.320 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:50:03.368 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:50:47.029 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:51:17.063 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:52:00.842 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:52:30.851 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:54:32.104 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:55:02.140 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:56:37.558 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:57:07.627 # -tilt #tilt mode exited
+81493:X 19 May 2021 00:58:34.809 # +tilt #tilt mode entered
+81493:X 19 May 2021 00:59:04.851 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:00:30.879 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:01:00.914 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:14:35.171 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:15:05.264 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:19:34.680 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:20:04.730 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:20:34.687 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:21:04.693 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:21:36.412 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:22:06.472 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:22:34.805 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:23:04.845 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:38:48.501 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:39:18.505 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:54:38.690 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:55:08.702 # -tilt #tilt mode exited
+81493:X 19 May 2021 01:55:38.934 # +tilt #tilt mode entered
+81493:X 19 May 2021 01:56:08.941 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:10:41.487 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:11:11.535 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:12:38.028 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:13:08.039 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:13:43.631 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:14:13.658 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:15:38.239 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:16:08.336 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:16:39.218 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:17:09.309 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:17:39.278 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:18:09.318 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:18:39.285 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:19:09.362 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:19:37.455 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:20:07.524 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:20:39.508 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:21:09.523 # -tilt #tilt mode exited
+81493:X 19 May 2021 02:38:09.520 # +tilt #tilt mode entered
+81493:X 19 May 2021 02:38:39.551 # -tilt #tilt mode exited
+81493:X 19 May 2021 03:08:50.512 # +tilt #tilt mode entered
+81493:X 19 May 2021 03:09:20.515 # -tilt #tilt mode exited
+81493:X 19 May 2021 03:10:30.733 # +tilt #tilt mode entered
+81493:X 19 May 2021 03:11:00.762 # -tilt #tilt mode exited
+81493:X 19 May 2021 03:55:26.665 # +tilt #tilt mode entered
+81493:X 19 May 2021 03:55:56.666 # -tilt #tilt mode exited
+81493:X 19 May 2021 03:56:49.302 # +tilt #tilt mode entered
+81493:X 19 May 2021 03:57:19.350 # -tilt #tilt mode exited
+81493:X 19 May 2021 03:57:47.145 # +tilt #tilt mode entered
+81493:X 19 May 2021 03:58:17.166 # -tilt #tilt mode exited
+81493:X 19 May 2021 04:10:54.130 # +tilt #tilt mode entered
+81493:X 19 May 2021 04:11:24.168 # -tilt #tilt mode exited
+81493:X 19 May 2021 04:28:27.309 # +tilt #tilt mode entered
+81493:X 19 May 2021 04:28:57.347 # -tilt #tilt mode exited
+81493:X 19 May 2021 04:35:05.086 # +tilt #tilt mode entered
+81493:X 19 May 2021 04:35:35.122 # -tilt #tilt mode exited
+81493:X 19 May 2021 06:35:51.298 # +tilt #tilt mode entered
+81493:X 19 May 2021 06:36:21.378 # -tilt #tilt mode exited
+81493:X 19 May 2021 09:00:01.078 # +tilt #tilt mode entered
+81493:X 19 May 2021 09:00:02.729 # +tilt #tilt mode entered
+81493:X 19 May 2021 09:00:32.768 # -tilt #tilt mode exited
+81493:X 19 May 2021 09:16:30.912 # +tilt #tilt mode entered
+81493:X 19 May 2021 09:17:00.925 # -tilt #tilt mode exited
+81493:X 19 May 2021 09:46:25.023 # +tilt #tilt mode entered
+81493:X 19 May 2021 09:46:55.028 # -tilt #tilt mode exited
+81493:X 19 May 2021 10:05:16.932 # +tilt #tilt mode entered
+81493:X 19 May 2021 10:05:46.952 # -tilt #tilt mode exited
+81493:X 19 May 2021 10:21:45.894 # +tilt #tilt mode entered
+81493:X 19 May 2021 10:22:15.915 # -tilt #tilt mode exited
+81493:X 19 May 2021 10:37:31.487 # +tilt #tilt mode entered
+81493:X 19 May 2021 10:38:01.539 # -tilt #tilt mode exited
+81493:X 19 May 2021 12:54:58.049 # +tilt #tilt mode entered
+81493:X 19 May 2021 12:55:27.306 # -tilt #tilt mode exited
+81493:X 19 May 2021 13:14:48.890 # +tilt #tilt mode entered
+81493:X 19 May 2021 13:15:18.919 # -tilt #tilt mode exited
+81493:X 19 May 2021 14:27:53.328 # +tilt #tilt mode entered
+81493:X 19 May 2021 14:28:22.560 # -tilt #tilt mode exited
+81493:X 19 May 2021 14:45:19.786 # +tilt #tilt mode entered
+81493:X 19 May 2021 14:45:49.869 # -tilt #tilt mode exited
+81493:X 19 May 2021 15:00:51.122 # +tilt #tilt mode entered
+81493:X 19 May 2021 15:01:21.129 # -tilt #tilt mode exited
+81493:X 19 May 2021 15:04:08.066 # +tilt #tilt mode entered
+81493:X 19 May 2021 15:04:38.078 # -tilt #tilt mode exited
+81493:X 19 May 2021 15:22:10.753 # +tilt #tilt mode entered
+81493:X 19 May 2021 15:22:40.799 # -tilt #tilt mode exited
+81493:X 19 May 2021 17:23:36.698 # +tilt #tilt mode entered
+81493:X 19 May 2021 17:23:39.706 # +tilt #tilt mode entered
+81493:X 19 May 2021 17:24:09.756 # -tilt #tilt mode exited
+81493:X 19 May 2021 17:25:26.334 # +tilt #tilt mode entered
+81493:X 19 May 2021 17:25:56.379 # -tilt #tilt mode exited
+81493:X 19 May 2021 17:50:54.633 # +tilt #tilt mode entered
+81493:X 19 May 2021 17:51:24.711 # -tilt #tilt mode exited
+81493:X 19 May 2021 18:09:04.559 # +tilt #tilt mode entered
+81493:X 19 May 2021 18:09:34.616 # -tilt #tilt mode exited
+81493:X 19 May 2021 19:29:04.203 # +tilt #tilt mode entered
+81493:X 19 May 2021 19:29:05.535 # +tilt #tilt mode entered
+81493:X 19 May 2021 19:29:35.594 # -tilt #tilt mode exited
+81493:X 19 May 2021 19:47:04.599 # +tilt #tilt mode entered
+81493:X 19 May 2021 19:47:34.639 # -tilt #tilt mode exited
+81493:X 19 May 2021 20:17:00.383 # +tilt #tilt mode entered
+81493:X 19 May 2021 20:17:30.405 # -tilt #tilt mode exited
+81493:X 19 May 2021 21:17:08.507 # +tilt #tilt mode entered
+81493:X 19 May 2021 21:17:38.522 # -tilt #tilt mode exited
+81493:X 19 May 2021 22:47:28.977 # +tilt #tilt mode entered
+81493:X 19 May 2021 22:47:59.016 # -tilt #tilt mode exited
+81493:X 20 May 2021 00:29:23.277 # +tilt #tilt mode entered
+81493:X 20 May 2021 00:29:53.316 # -tilt #tilt mode exited
+81493:X 20 May 2021 01:57:11.278 # +tilt #tilt mode entered
+81493:X 20 May 2021 01:57:41.303 # -tilt #tilt mode exited
+81493:X 20 May 2021 03:09:52.187 # +tilt #tilt mode entered
+81493:X 20 May 2021 03:10:22.217 # -tilt #tilt mode exited
+81493:X 20 May 2021 03:53:46.920 # +tilt #tilt mode entered
+81493:X 20 May 2021 03:54:16.930 # -tilt #tilt mode exited
+81493:X 20 May 2021 05:54:34.082 # +tilt #tilt mode entered
+81493:X 20 May 2021 05:55:04.152 # -tilt #tilt mode exited
+81493:X 20 May 2021 07:55:20.942 # +tilt #tilt mode entered
+81493:X 20 May 2021 07:55:22.435 # +tilt #tilt mode entered
+81493:X 20 May 2021 07:55:35.403 # +tilt #tilt mode entered
+81493:X 20 May 2021 07:56:05.417 # -tilt #tilt mode exited
+81493:X 20 May 2021 07:58:18.699 # +tilt #tilt mode entered
+81493:X 20 May 2021 07:58:48.745 # -tilt #tilt mode exited
+81493:X 20 May 2021 08:16:01.616 # +tilt #tilt mode entered
+81493:X 20 May 2021 08:16:31.636 # -tilt #tilt mode exited
+81493:X 20 May 2021 08:33:21.623 # +tilt #tilt mode entered
+81493:X 20 May 2021 08:33:51.653 # -tilt #tilt mode exited
+81493:X 20 May 2021 10:34:08.683 # +tilt #tilt mode entered
+81493:X 20 May 2021 10:34:11.797 # +tilt #tilt mode entered
+81493:X 20 May 2021 10:34:41.865 # -tilt #tilt mode exited
+81493:X 20 May 2021 11:15:00.525 # +tilt #tilt mode entered
+81493:X 20 May 2021 11:15:30.534 # -tilt #tilt mode exited
+81493:X 20 May 2021 13:15:28.462 # +tilt #tilt mode entered
+81493:X 20 May 2021 13:15:58.498 # -tilt #tilt mode exited
+81493:X 20 May 2021 15:16:16.340 # +tilt #tilt mode entered
+81493:X 20 May 2021 15:16:18.745 # +tilt #tilt mode entered
+81493:X 20 May 2021 15:16:48.775 # -tilt #tilt mode exited
+81493:X 20 May 2021 15:45:21.540 # +tilt #tilt mode entered
+81493:X 20 May 2021 15:45:51.573 # -tilt #tilt mode exited
+81493:X 20 May 2021 22:46:57.977 # +tilt #tilt mode entered
+81493:X 20 May 2021 22:47:27.981 # -tilt #tilt mode exited
+81493:X 21 May 2021 01:38:44.975 # +tilt #tilt mode entered
+81493:X 21 May 2021 01:39:14.980 # -tilt #tilt mode exited
+81493:X 21 May 2021 03:10:53.988 # +tilt #tilt mode entered
+81493:X 21 May 2021 03:11:23.994 # -tilt #tilt mode exited
+81493:X 21 May 2021 05:03:08.374 # +tilt #tilt mode entered
+81493:X 21 May 2021 05:03:38.390 # -tilt #tilt mode exited
+81493:X 21 May 2021 07:03:55.716 # +tilt #tilt mode entered
+81493:X 21 May 2021 07:04:25.737 # -tilt #tilt mode exited
+81493:X 21 May 2021 08:33:03.207 # +tilt #tilt mode entered
+81493:X 21 May 2021 08:33:04.816 # +tilt #tilt mode entered
+81493:X 21 May 2021 08:33:34.825 # -tilt #tilt mode exited
+81493:X 21 May 2021 08:50:06.246 # +tilt #tilt mode entered
+81493:X 21 May 2021 08:50:36.315 # -tilt #tilt mode exited
+81493:X 21 May 2021 09:11:53.665 # +tilt #tilt mode entered
+81493:X 21 May 2021 09:12:23.688 # -tilt #tilt mode exited
+81493:X 21 May 2021 09:41:40.405 # +tilt #tilt mode entered
+81493:X 21 May 2021 09:42:10.425 # -tilt #tilt mode exited
+81493:X 21 May 2021 09:59:32.340 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:00:02.390 # -tilt #tilt mode exited
+81493:X 21 May 2021 10:15:00.340 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:15:30.375 # -tilt #tilt mode exited
+81493:X 21 May 2021 10:36:52.482 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:37:25.983 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:37:57.482 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:38:16.032 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:38:56.924 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:41:28.764 # +tilt #tilt mode entered
+81493:X 21 May 2021 10:41:58.815 # -tilt #tilt mode exited
+81493:X 21 May 2021 11:30:06.826 # +tilt #tilt mode entered
+81493:X 21 May 2021 11:30:36.080 # -tilt #tilt mode exited
+81493:X 21 May 2021 11:41:14.155 # +tilt #tilt mode entered
+81493:X 21 May 2021 11:41:43.108 # -tilt #tilt mode exited
+81493:X 21 May 2021 12:56:35.096 # +tilt #tilt mode entered
+81493:X 21 May 2021 12:57:04.442 # -tilt #tilt mode exited
+81493:X 21 May 2021 16:37:19.736 # +tilt #tilt mode entered
+81493:X 21 May 2021 16:37:48.825 # -tilt #tilt mode exited
+81493:X 21 May 2021 18:33:02.991 # +tilt #tilt mode entered
+81493:X 21 May 2021 18:33:33.042 # -tilt #tilt mode exited
+81493:X 21 May 2021 18:59:18.158 # +tilt #tilt mode entered
+81493:X 21 May 2021 18:59:48.186 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:16:50.129 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:17:20.146 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:21:46.421 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:22:16.481 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:23:17.399 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:23:47.429 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:24:53.299 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:25:23.363 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:33:42.838 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:34:12.888 # -tilt #tilt mode exited
+81493:X 21 May 2021 19:36:52.899 # +tilt #tilt mode entered
+81493:X 21 May 2021 19:37:22.911 # -tilt #tilt mode exited
+81493:X 21 May 2021 22:43:12.025 # +tilt #tilt mode entered
+81493:X 21 May 2021 22:43:42.080 # -tilt #tilt mode exited
+81493:X 22 May 2021 00:42:49.211 # +tilt #tilt mode entered
+81493:X 22 May 2021 00:43:19.257 # -tilt #tilt mode exited
+81493:X 22 May 2021 01:13:35.981 # +tilt #tilt mode entered
+81493:X 22 May 2021 01:14:06.052 # -tilt #tilt mode exited
+81493:X 22 May 2021 01:31:17.978 # +tilt #tilt mode entered
+81493:X 22 May 2021 01:31:47.988 # -tilt #tilt mode exited
+81493:X 22 May 2021 03:11:54.983 # +tilt #tilt mode entered
+81493:X 22 May 2021 03:11:56.488 # +tilt #tilt mode entered
+81493:X 22 May 2021 03:12:26.534 # -tilt #tilt mode exited
+81493:X 22 May 2021 04:37:07.524 # +tilt #tilt mode entered
+81493:X 22 May 2021 04:37:37.601 # -tilt #tilt mode exited
+81493:X 22 May 2021 04:52:02.836 # +tilt #tilt mode entered
+81493:X 22 May 2021 04:52:32.847 # -tilt #tilt mode exited
+81493:X 22 May 2021 05:24:09.662 # +tilt #tilt mode entered
+81493:X 22 May 2021 05:24:39.674 # -tilt #tilt mode exited
+81493:X 22 May 2021 05:41:52.657 # +tilt #tilt mode entered
+81493:X 22 May 2021 05:41:54.342 # +tilt #tilt mode entered
+81493:X 22 May 2021 05:42:24.411 # -tilt #tilt mode exited
+81493:X 22 May 2021 07:42:39.588 # +tilt #tilt mode entered
+81493:X 22 May 2021 07:42:43.891 # +tilt #tilt mode entered
+81493:X 22 May 2021 07:43:13.948 # -tilt #tilt mode exited
+81493:X 22 May 2021 09:43:26.404 # +tilt #tilt mode entered
+81493:X 22 May 2021 09:43:29.793 # +tilt #tilt mode entered
+81493:X 22 May 2021 09:43:59.842 # -tilt #tilt mode exited
+81493:X 22 May 2021 10:03:46.715 # +tilt #tilt mode entered
+81493:X 22 May 2021 10:04:16.715 # -tilt #tilt mode exited
+81493:X 22 May 2021 10:15:01.347 # +tilt #tilt mode entered
+81493:X 22 May 2021 10:15:31.351 # -tilt #tilt mode exited
+81493:X 22 May 2021 11:21:40.336 # +tilt #tilt mode entered
+81493:X 22 May 2021 11:58:32.831 # +tilt #tilt mode entered
+81493:X 22 May 2021 11:59:02.902 # -tilt #tilt mode exited
+81493:X 22 May 2021 12:37:05.637 # +tilt #tilt mode entered
+81493:X 22 May 2021 12:38:20.385 # +tilt #tilt mode entered
+81493:X 22 May 2021 14:02:27.515 # +tilt #tilt mode entered
+81493:X 22 May 2021 14:02:57.526 # -tilt #tilt mode exited
+81493:X 22 May 2021 18:37:14.705 # +tilt #tilt mode entered
+81493:X 22 May 2021 18:37:44.741 # -tilt #tilt mode exited
+81493:X 22 May 2021 19:04:57.879 # +tilt #tilt mode entered
+81493:X 22 May 2021 19:05:27.900 # -tilt #tilt mode exited
+81493:X 23 May 2021 09:00:35.855 # +tilt #tilt mode entered
+81493:X 23 May 2021 09:01:05.903 # -tilt #tilt mode exited
+81493:X 23 May 2021 13:12:09.128 # +tilt #tilt mode entered
+81493:X 23 May 2021 13:12:19.979 # +tilt #tilt mode entered
+81493:X 23 May 2021 13:12:49.997 # -tilt #tilt mode exited
+81493:X 23 May 2021 15:22:02.636 # +tilt #tilt mode entered
+81493:X 23 May 2021 15:22:32.386 # -tilt #tilt mode exited
+81493:X 23 May 2021 15:47:01.829 # +tilt #tilt mode entered
+81493:X 23 May 2021 15:47:31.873 # -tilt #tilt mode exited
+81493:X 23 May 2021 18:29:36.912 # +tilt #tilt mode entered
+81493:X 23 May 2021 18:30:06.921 # -tilt #tilt mode exited
+81493:X 23 May 2021 18:45:39.370 # +tilt #tilt mode entered
+81493:X 23 May 2021 18:46:09.405 # -tilt #tilt mode exited
+81493:X 23 May 2021 18:52:42.033 # +tilt #tilt mode entered
+81493:X 23 May 2021 18:53:12.040 # -tilt #tilt mode exited
+66704:X 23 May 2021 19:20:10.629 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+66704:X 23 May 2021 19:20:10.631 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=66704, just started
+66704:X 23 May 2021 19:20:10.631 # Configuration loaded
+66704:X 23 May 2021 19:20:10.633 * Increased maximum number of open files to 10032 (it was originally set to 256).
+66704:X 23 May 2021 19:20:10.633 * monotonic clock: POSIX clock_gettime
+66704:X 23 May 2021 19:20:10.635 # Warning: Could not create server TCP listening socket *:26379: bind: Address already in use
+66704:X 23 May 2021 19:20:10.635 # Failed listening on port 26379 (TCP), aborting.
+67875:X 23 May 2021 19:26:10.311 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+67875:X 23 May 2021 19:26:10.311 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=67875, just started
+67875:X 23 May 2021 19:26:10.312 # Configuration loaded
+67875:X 23 May 2021 19:26:10.313 * Increased maximum number of open files to 10032 (it was originally set to 256).
+67875:X 23 May 2021 19:26:10.314 * monotonic clock: POSIX clock_gettime
+67875:X 23 May 2021 19:26:10.314 # Warning: Could not create server TCP listening socket *:26379: bind: Address already in use
+67875:X 23 May 2021 19:26:10.315 # Failed listening on port 26379 (TCP), aborting.
+81493:signal-handler (1621770376) Received SIGTERM scheduling shutdown...
+81493:X 23 May 2021 19:46:16.223 # User requested shutdown...
+81493:X 23 May 2021 19:46:16.223 * Removing the pid file.
+81493:X 23 May 2021 19:46:16.224 # Sentinel is now ready to exit, bye bye...
+72216:X 23 May 2021 19:48:07.349 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+72216:X 23 May 2021 19:48:07.350 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=72216, just started
+72216:X 23 May 2021 19:48:07.350 # Configuration loaded
+72216:X 23 May 2021 19:48:07.351 * Increased maximum number of open files to 10032 (it was originally set to 256).
+72216:X 23 May 2021 19:48:07.351 * monotonic clock: POSIX clock_gettime
+72216:X 23 May 2021 19:48:07.353 * Running mode=sentinel, port=26379.
+72216:X 23 May 2021 19:48:07.355 # Sentinel ID is 969c3c885ce4a4c2c1f277e8852ac6dc023fc6c7
+72216:X 23 May 2021 19:48:07.355 # +monitor master macrog-master 127.0.0.1 6370 quorum 2
+72216:X 23 May 2021 19:48:07.356 * +slave slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 19:48:07.358 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 19:51:44.499 # +sdown master macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 19:53:55.277 * +reboot master macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 19:53:55.366 # -sdown master macrog-master 127.0.0.1 6370
+74916:X 23 May 2021 20:01:45.682 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+74916:X 23 May 2021 20:01:45.683 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=74916, just started
+74916:X 23 May 2021 20:01:45.683 # Configuration loaded
+74916:X 23 May 2021 20:01:45.685 * Increased maximum number of open files to 10032 (it was originally set to 256).
+74916:X 23 May 2021 20:01:45.685 * monotonic clock: POSIX clock_gettime
+74916:X 23 May 2021 20:01:45.685 # Warning: Could not create server TCP listening socket *:26379: bind: Address already in use
+74916:X 23 May 2021 20:01:45.685 # Failed listening on port 26379 (TCP), aborting.
+72216:X 23 May 2021 20:03:29.172 # +sdown master macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 20:06:52.525 * +reboot master macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 20:06:52.585 # -sdown master macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:09:14.167 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+76374:X 23 May 2021 20:09:14.168 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=76374, just started
+76374:X 23 May 2021 20:09:14.168 # Configuration loaded
+76374:X 23 May 2021 20:09:14.169 * Increased maximum number of open files to 10032 (it was originally set to 256).
+76374:X 23 May 2021 20:09:14.169 * monotonic clock: POSIX clock_gettime
+76374:X 23 May 2021 20:09:14.171 * Running mode=sentinel, port=26380.
+76374:X 23 May 2021 20:09:14.173 # Sentinel ID is bcbb48a0aa9cc522a8f422ed6fd342790af7e27f
+76374:X 23 May 2021 20:09:14.173 # +monitor master macrog-master 127.0.0.1 6370 quorum 2
+76374:X 23 May 2021 20:09:14.174 * +slave slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:09:14.176 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:09:14.399 * +sentinel sentinel 969c3c885ce4a4c2c1f277e8852ac6dc023fc6c7 127.0.0.1 26379 @ macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 20:09:16.209 * +sentinel sentinel bcbb48a0aa9cc522a8f422ed6fd342790af7e27f 127.0.0.1 26380 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:09:18.257 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+76394:X 23 May 2021 20:09:18.258 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=76394, just started
+76394:X 23 May 2021 20:09:18.258 # Configuration loaded
+76394:X 23 May 2021 20:09:18.260 * Increased maximum number of open files to 10032 (it was originally set to 256).
+76394:X 23 May 2021 20:09:18.260 * monotonic clock: POSIX clock_gettime
+76394:X 23 May 2021 20:09:18.262 * Running mode=sentinel, port=26381.
+76394:X 23 May 2021 20:09:18.265 # Sentinel ID is 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e
+76394:X 23 May 2021 20:09:18.265 # +monitor master macrog-master 127.0.0.1 6370 quorum 2
+76394:X 23 May 2021 20:09:18.266 * +slave slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:09:18.268 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:09:18.499 * +sentinel sentinel 969c3c885ce4a4c2c1f277e8852ac6dc023fc6c7 127.0.0.1 26379 @ macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 20:09:20.323 * +sentinel sentinel 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 127.0.0.1 26381 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:09:20.323 * +sentinel sentinel 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 127.0.0.1 26381 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:09:20.327 * +sentinel sentinel bcbb48a0aa9cc522a8f422ed6fd342790af7e27f 127.0.0.1 26380 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:10:06.886 # +sdown master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:06.908 # +sdown master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:06.977 # +odown master macrog-master 127.0.0.1 6370 #quorum 2/2
+76394:X 23 May 2021 20:10:06.978 # +new-epoch 1
+76394:X 23 May 2021 20:10:06.978 # +try-failover master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:06.982 # +vote-for-leader 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 1
+72216:X 23 May 2021 20:10:06.985 # +new-epoch 1
+76374:X 23 May 2021 20:10:06.985 # +new-epoch 1
+72216:X 23 May 2021 20:10:06.988 # +vote-for-leader 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 1
+76374:X 23 May 2021 20:10:06.988 # +vote-for-leader 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 1
+76394:X 23 May 2021 20:10:06.988 # 969c3c885ce4a4c2c1f277e8852ac6dc023fc6c7 voted for 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 1
+76394:X 23 May 2021 20:10:06.989 # bcbb48a0aa9cc522a8f422ed6fd342790af7e27f voted for 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 1
+76394:X 23 May 2021 20:10:07.046 # +elected-leader master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:07.046 # +failover-state-select-slave master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:07.101 # +selected-slave slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:07.101 * +failover-state-send-slaveof-noone slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:07.156 * +failover-state-wait-promotion slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:10:07.964 # +odown master macrog-master 127.0.0.1 6370 #quorum 2/2
+76374:X 23 May 2021 20:10:07.965 # Next failover delay: I will not start a failover before Sun May 23 20:10:27 2021
+76394:X 23 May 2021 20:10:08.014 # +promoted-slave slave 127.0.0.1:6371 127.0.0.1 6371 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:08.014 # +failover-state-reconf-slaves master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:08.102 * +slave-reconf-sent slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:10:08.103 # +config-update-from sentinel 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 127.0.0.1 26381 @ macrog-master 127.0.0.1 6370
+72216:X 23 May 2021 20:10:08.103 # +config-update-from sentinel 7d81fdd4de9e67da7dda0bfd159a872f1d7eb78e 127.0.0.1 26381 @ macrog-master 127.0.0.1 6370
+76374:X 23 May 2021 20:10:08.104 # +switch-master macrog-master 127.0.0.1 6370 127.0.0.1 6371
+72216:X 23 May 2021 20:10:08.104 # +switch-master macrog-master 127.0.0.1 6370 127.0.0.1 6371
+76374:X 23 May 2021 20:10:08.105 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6371
+72216:X 23 May 2021 20:10:08.106 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6371
+72216:X 23 May 2021 20:10:08.106 * +slave slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76374:X 23 May 2021 20:10:08.106 * +slave slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76394:X 23 May 2021 20:10:09.071 * +slave-reconf-inprog slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:09.072 * +slave-reconf-done slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:09.147 # -odown master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:09.148 # +failover-end master macrog-master 127.0.0.1 6370
+76394:X 23 May 2021 20:10:09.149 # +switch-master macrog-master 127.0.0.1 6370 127.0.0.1 6371
+76394:X 23 May 2021 20:10:09.149 * +slave slave 127.0.0.1:6372 127.0.0.1 6372 @ macrog-master 127.0.0.1 6371
+76394:X 23 May 2021 20:10:09.150 * +slave slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76374:X 23 May 2021 20:10:11.122 # +sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76394:X 23 May 2021 20:10:12.162 # +sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+72216:X 23 May 2021 20:10:38.167 # +sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+72216:X 23 May 2021 20:12:26.905 # -sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76394:X 23 May 2021 20:12:27.126 # -sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+76374:X 23 May 2021 20:12:27.198 # -sdown slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371
+72216:X 23 May 2021 20:12:36.901 * +convert-to-slave slave 127.0.0.1:6370 127.0.0.1 6370 @ macrog-master 127.0.0.1 6371

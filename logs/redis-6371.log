@@ -1,0 +1,2451 @@
+75668:C 17 May 2021 22:21:42.179 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+75668:C 17 May 2021 22:21:42.180 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=75668, just started
+75668:C 17 May 2021 22:21:42.180 # Configuration loaded
+75668:S 17 May 2021 22:21:42.182 * Increased maximum number of open files to 10032 (it was originally set to 256).
+75668:S 17 May 2021 22:21:42.182 * monotonic clock: POSIX clock_gettime
+75668:S 17 May 2021 22:21:42.185 * Running mode=standalone, port=6371.
+75668:S 17 May 2021 22:21:42.185 # Server initialized
+75668:S 17 May 2021 22:21:42.185 * Ready to accept connections
+75668:S 17 May 2021 22:21:42.186 * Connecting to MASTER 127.0.0.1:6370
+75668:S 17 May 2021 22:21:42.186 * MASTER <-> REPLICA sync started
+75668:S 17 May 2021 22:21:42.186 * Non blocking connect for SYNC fired the event.
+75668:S 17 May 2021 22:21:42.187 * Master replied to PING, replication can continue...
+75668:S 17 May 2021 22:21:42.188 * Partial resynchronization not possible (no cached master)
+75668:S 17 May 2021 22:21:42.190 * Full resync from master: 3609a3613698c0c62f47f1a4d58bd1ba18556613:0
+75668:S 17 May 2021 22:21:42.257 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+75668:S 17 May 2021 22:21:42.258 * MASTER <-> REPLICA sync: Flushing old data
+75668:S 17 May 2021 22:21:42.258 * MASTER <-> REPLICA sync: Loading DB in memory
+75668:S 17 May 2021 22:21:42.259 * Loading RDB produced by version 6.2.3
+75668:S 17 May 2021 22:21:42.259 * RDB age 0 seconds
+75668:S 17 May 2021 22:21:42.259 * RDB memory usage when created 2.02 Mb
+75668:S 17 May 2021 22:21:42.260 * MASTER <-> REPLICA sync: Finished with success
+75668:S 17 May 2021 23:21:43.044 * 1 changes in 3600 seconds. Saving...
+75668:S 17 May 2021 23:21:43.048 * Background saving started by pid 87280
+87280:C 17 May 2021 23:21:43.051 * DB saved on disk
+75668:S 17 May 2021 23:21:43.151 * Background saving terminated with success
+75668:S 18 May 2021 01:12:32.468 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 01:12:32.471 # Connection with master lost.
+75668:S 18 May 2021 01:12:32.473 * Caching the disconnected master state.
+75668:S 18 May 2021 01:12:32.474 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 01:12:32.476 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 01:12:32.477 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 01:12:32.479 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 01:12:32.486 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8177).
+75668:S 18 May 2021 01:12:32.492 * Successful partial resynchronization with master.
+75668:S 18 May 2021 01:12:32.492 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 03:07:50.277 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 03:07:50.431 # Connection with master lost.
+75668:S 18 May 2021 03:07:50.433 * Caching the disconnected master state.
+75668:S 18 May 2021 03:07:50.434 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 03:07:50.435 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 03:07:50.436 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 03:07:50.437 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 03:07:50.438 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8289).
+75668:S 18 May 2021 03:07:50.440 * Successful partial resynchronization with master.
+75668:S 18 May 2021 03:07:50.440 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 03:48:16.370 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 03:48:16.627 # Connection with master lost.
+75668:S 18 May 2021 03:48:16.628 * Caching the disconnected master state.
+75668:S 18 May 2021 03:48:16.629 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 03:48:16.630 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 03:48:16.631 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 03:48:16.632 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 03:48:16.634 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8387).
+75668:S 18 May 2021 03:48:16.636 * Successful partial resynchronization with master.
+75668:S 18 May 2021 03:48:16.636 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 03:57:54.189 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 03:57:54.247 # Connection with master lost.
+75668:S 18 May 2021 03:57:54.247 * Caching the disconnected master state.
+75668:S 18 May 2021 03:57:54.248 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 03:57:54.249 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 03:57:54.250 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 03:57:54.251 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 03:57:54.251 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8457).
+75668:S 18 May 2021 03:57:54.253 * Successful partial resynchronization with master.
+75668:S 18 May 2021 03:57:54.253 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 05:58:41.084 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 05:58:41.084 # Connection with master lost.
+75668:S 18 May 2021 05:58:41.084 * Caching the disconnected master state.
+75668:S 18 May 2021 05:58:41.085 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 05:58:41.085 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 05:58:41.085 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 05:58:41.085 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 05:58:41.086 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8527).
+75668:S 18 May 2021 05:58:41.087 * Successful partial resynchronization with master.
+75668:S 18 May 2021 05:58:41.087 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 06:30:01.929 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 06:30:01.976 # Connection with master lost.
+75668:S 18 May 2021 06:30:01.977 * Caching the disconnected master state.
+75668:S 18 May 2021 06:30:01.978 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 06:30:01.978 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 06:30:01.978 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 06:30:01.979 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 06:30:01.979 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:8597).
+75668:S 18 May 2021 06:30:01.980 * Successful partial resynchronization with master.
+75668:S 18 May 2021 06:30:01.980 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 09:00:01.197 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 09:00:01.862 # Connection with master lost.
+75668:S 18 May 2021 09:00:01.864 * Caching the disconnected master state.
+75668:S 18 May 2021 09:00:01.866 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 09:00:01.866 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 09:00:01.867 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 09:00:01.869 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 09:00:01.871 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:13511).
+75668:S 18 May 2021 09:00:01.872 * Successful partial resynchronization with master.
+75668:S 18 May 2021 09:00:01.873 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 09:43:05.330 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 09:43:05.794 # Connection with master lost.
+75668:S 18 May 2021 09:43:05.795 * Caching the disconnected master state.
+75668:S 18 May 2021 09:43:05.795 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 09:43:05.796 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 09:43:05.797 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 09:43:05.800 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 09:43:05.801 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:14729).
+75668:S 18 May 2021 09:43:05.804 * Successful partial resynchronization with master.
+75668:S 18 May 2021 09:43:05.805 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 10:00:13.810 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 10:00:13.859 # Connection with master lost.
+75668:S 18 May 2021 10:00:13.860 * Caching the disconnected master state.
+75668:S 18 May 2021 10:00:13.860 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 10:00:13.861 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 10:00:13.862 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 10:00:13.863 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 10:00:13.863 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:14799).
+75668:S 18 May 2021 10:00:13.866 * Successful partial resynchronization with master.
+75668:S 18 May 2021 10:00:13.866 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 10:12:08.918 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 10:12:09.690 # Connection with master lost.
+75668:S 18 May 2021 10:12:09.690 * Caching the disconnected master state.
+75668:S 18 May 2021 10:12:09.691 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 10:12:09.691 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 10:12:09.692 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 10:12:09.693 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 10:12:09.693 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:14911).
+75668:S 18 May 2021 10:12:09.695 * Successful partial resynchronization with master.
+75668:S 18 May 2021 10:12:09.695 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 13:03:18.340 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 13:03:18.702 # Connection with master lost.
+75668:S 18 May 2021 13:03:18.703 * Caching the disconnected master state.
+75668:S 18 May 2021 13:03:18.704 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 13:03:18.705 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 13:03:18.705 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 13:03:18.706 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 13:03:18.707 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:25649).
+75668:S 18 May 2021 13:03:18.710 * Successful partial resynchronization with master.
+75668:S 18 May 2021 13:03:18.710 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 13:21:23.528 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 13:21:23.687 # Connection with master lost.
+75668:S 18 May 2021 13:21:23.688 * Caching the disconnected master state.
+75668:S 18 May 2021 13:21:23.688 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 13:21:23.689 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 13:21:23.690 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 13:21:23.691 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 13:21:23.692 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:25733).
+75668:S 18 May 2021 13:21:23.694 * Successful partial resynchronization with master.
+75668:S 18 May 2021 13:21:23.695 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 13:59:27.495 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 13:59:27.496 # Connection with master lost.
+75668:S 18 May 2021 13:59:27.496 * Caching the disconnected master state.
+75668:S 18 May 2021 13:59:27.498 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 13:59:27.498 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 13:59:27.500 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 13:59:27.502 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 13:59:27.504 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:25859).
+75668:S 18 May 2021 13:59:27.505 * Successful partial resynchronization with master.
+75668:S 18 May 2021 13:59:27.505 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 17:54:40.715 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 17:54:40.725 # Connection with master lost.
+75668:S 18 May 2021 17:54:40.726 * Caching the disconnected master state.
+75668:S 18 May 2021 17:54:40.726 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 17:54:40.727 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 17:54:40.728 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 17:54:40.729 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 17:54:40.730 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:41399).
+75668:S 18 May 2021 17:54:40.732 * Successful partial resynchronization with master.
+75668:S 18 May 2021 17:54:40.733 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 18:41:54.845 # Connection with master lost.
+75668:S 18 May 2021 18:41:54.846 * Caching the disconnected master state.
+75668:S 18 May 2021 18:41:54.846 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 18:41:54.847 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 18:41:54.847 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 18:41:54.848 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 18:41:54.848 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:44423).
+75668:S 18 May 2021 18:41:54.849 * Successful partial resynchronization with master.
+75668:S 18 May 2021 18:41:54.850 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 18 May 2021 18:56:46.107 # MASTER timeout: no data nor PING received...
+75668:S 18 May 2021 18:56:46.108 # Connection with master lost.
+75668:S 18 May 2021 18:56:46.109 * Caching the disconnected master state.
+75668:S 18 May 2021 18:56:46.109 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 18 May 2021 18:56:46.110 * MASTER <-> REPLICA sync started
+75668:S 18 May 2021 18:56:46.110 * Non blocking connect for SYNC fired the event.
+75668:S 18 May 2021 18:56:46.110 * Master replied to PING, replication can continue...
+75668:S 18 May 2021 18:56:46.111 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:45557).
+75668:S 18 May 2021 18:56:46.112 * Successful partial resynchronization with master.
+75668:S 18 May 2021 18:56:46.112 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 00:54:32.812 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 00:54:32.867 # Connection with master lost.
+75668:S 19 May 2021 00:54:32.899 * Caching the disconnected master state.
+75668:S 19 May 2021 00:54:32.899 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 00:54:32.900 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 00:54:32.900 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 00:54:32.901 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 00:54:32.902 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:74957).
+75668:S 19 May 2021 00:54:32.902 * Successful partial resynchronization with master.
+75668:S 19 May 2021 00:54:32.903 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 00:56:38.262 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 00:56:38.314 # Connection with master lost.
+75668:S 19 May 2021 00:56:38.315 * Caching the disconnected master state.
+75668:S 19 May 2021 00:56:38.316 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 00:56:38.316 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 00:56:38.316 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 00:56:38.317 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 00:56:38.317 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75013).
+75668:S 19 May 2021 00:56:38.318 * Successful partial resynchronization with master.
+75668:S 19 May 2021 00:56:38.318 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 00:58:35.516 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 00:58:35.574 # Connection with master lost.
+75668:S 19 May 2021 00:58:35.574 * Caching the disconnected master state.
+75668:S 19 May 2021 00:58:35.575 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 00:58:35.576 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 00:58:35.576 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 00:58:35.576 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 00:58:35.576 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75083).
+75668:S 19 May 2021 00:58:35.577 * Successful partial resynchronization with master.
+75668:S 19 May 2021 00:58:35.577 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 01:00:31.582 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 01:00:31.641 # Connection with master lost.
+75668:S 19 May 2021 01:00:31.641 * Caching the disconnected master state.
+75668:S 19 May 2021 01:00:31.642 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 01:00:31.643 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 01:00:31.643 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 01:00:31.644 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 01:00:31.644 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75153).
+75668:S 19 May 2021 01:00:31.645 * Successful partial resynchronization with master.
+75668:S 19 May 2021 01:00:31.645 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 01:14:35.875 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 01:14:35.938 # Connection with master lost.
+75668:S 19 May 2021 01:14:35.938 * Caching the disconnected master state.
+75668:S 19 May 2021 01:14:35.939 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 01:14:35.940 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 01:14:35.940 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 01:14:35.940 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 01:14:35.941 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75209).
+75668:S 19 May 2021 01:14:35.941 * Successful partial resynchronization with master.
+75668:S 19 May 2021 01:14:35.942 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 01:19:35.588 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 01:19:35.589 # Connection with master lost.
+75668:S 19 May 2021 01:19:35.589 * Caching the disconnected master state.
+75668:S 19 May 2021 01:19:35.590 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 01:19:35.590 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 01:19:35.591 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 01:19:35.597 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 01:19:35.600 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75321).
+75668:S 19 May 2021 01:19:35.605 * Successful partial resynchronization with master.
+75668:S 19 May 2021 01:19:35.605 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 01:38:49.212 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 01:38:49.262 # Connection with master lost.
+75668:S 19 May 2021 01:38:49.262 * Caching the disconnected master state.
+75668:S 19 May 2021 01:38:49.263 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 01:38:49.263 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 01:38:49.264 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 01:38:49.264 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 01:38:49.265 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75587).
+75668:S 19 May 2021 01:38:49.266 * Successful partial resynchronization with master.
+75668:S 19 May 2021 01:38:49.266 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 01:54:39.603 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 01:54:39.603 # Connection with master lost.
+75668:S 19 May 2021 01:54:39.603 * Caching the disconnected master state.
+75668:S 19 May 2021 01:54:39.603 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 01:54:39.604 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 01:54:39.604 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 01:54:39.604 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 01:54:39.605 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:75923).
+75668:S 19 May 2021 01:54:39.606 * Successful partial resynchronization with master.
+75668:S 19 May 2021 01:54:39.606 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 02:10:42.299 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 02:10:42.299 # Connection with master lost.
+75668:S 19 May 2021 02:10:42.300 * Caching the disconnected master state.
+75668:S 19 May 2021 02:10:42.300 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 02:10:42.301 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 02:10:42.301 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 02:10:42.302 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 02:10:42.302 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76063).
+75668:S 19 May 2021 02:10:42.304 * Successful partial resynchronization with master.
+75668:S 19 May 2021 02:10:42.304 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 02:12:38.835 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 02:12:38.835 # Connection with master lost.
+75668:S 19 May 2021 02:12:38.836 * Caching the disconnected master state.
+75668:S 19 May 2021 02:12:38.836 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 02:12:38.837 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 02:12:38.837 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 02:12:38.837 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 02:12:38.837 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76119).
+75668:S 19 May 2021 02:12:38.838 * Successful partial resynchronization with master.
+75668:S 19 May 2021 02:12:38.838 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 02:15:39.048 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 02:15:39.048 # Connection with master lost.
+75668:S 19 May 2021 02:15:39.048 * Caching the disconnected master state.
+75668:S 19 May 2021 02:15:39.049 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 02:15:39.049 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 02:15:39.049 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 02:15:39.049 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 02:15:39.050 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76259).
+75668:S 19 May 2021 02:15:39.051 * Successful partial resynchronization with master.
+75668:S 19 May 2021 02:15:39.051 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 02:38:10.233 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 02:38:10.284 # Connection with master lost.
+75668:S 19 May 2021 02:38:10.286 * Caching the disconnected master state.
+75668:S 19 May 2021 02:38:10.286 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 02:38:10.287 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 02:38:10.288 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 02:38:10.289 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 02:38:10.290 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76665).
+75668:S 19 May 2021 02:38:10.293 * Successful partial resynchronization with master.
+75668:S 19 May 2021 02:38:10.293 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 03:08:51.222 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 03:08:51.277 # Connection with master lost.
+75668:S 19 May 2021 03:08:51.277 * Caching the disconnected master state.
+75668:S 19 May 2021 03:08:51.279 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 03:08:51.280 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 03:08:51.281 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 03:08:51.282 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 03:08:51.283 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76791).
+75668:S 19 May 2021 03:08:51.286 * Successful partial resynchronization with master.
+75668:S 19 May 2021 03:08:51.287 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 03:55:27.471 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 03:55:27.471 # Connection with master lost.
+75668:S 19 May 2021 03:55:27.471 * Caching the disconnected master state.
+75668:S 19 May 2021 03:55:27.472 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 03:55:27.472 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 03:55:27.472 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 03:55:27.473 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 03:55:27.473 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:76973).
+75668:S 19 May 2021 03:55:27.474 * Successful partial resynchronization with master.
+75668:S 19 May 2021 03:55:27.474 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 04:10:54.637 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 04:10:54.902 # Connection with master lost.
+75668:S 19 May 2021 04:10:54.902 * Caching the disconnected master state.
+75668:S 19 May 2021 04:10:54.904 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 04:10:54.904 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 04:10:54.904 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 04:10:54.905 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 04:10:54.906 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:77197).
+75668:S 19 May 2021 04:10:54.907 * Successful partial resynchronization with master.
+75668:S 19 May 2021 04:10:54.907 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 04:28:27.818 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 04:28:28.075 # Connection with master lost.
+75668:S 19 May 2021 04:28:28.076 * Caching the disconnected master state.
+75668:S 19 May 2021 04:28:28.077 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 04:28:28.078 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 04:28:28.079 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 04:28:28.080 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 04:28:28.081 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:77267).
+75668:S 19 May 2021 04:28:28.083 * Successful partial resynchronization with master.
+75668:S 19 May 2021 04:28:28.083 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 04:35:05.591 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 04:35:05.866 # Connection with master lost.
+75668:S 19 May 2021 04:35:05.875 * Caching the disconnected master state.
+75668:S 19 May 2021 04:35:05.876 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 04:35:05.877 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 04:35:05.877 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 04:35:05.878 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 04:35:05.879 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:77323).
+75668:S 19 May 2021 04:35:05.880 * Successful partial resynchronization with master.
+75668:S 19 May 2021 04:35:05.881 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 06:35:51.908 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 06:35:52.062 # Connection with master lost.
+75668:S 19 May 2021 06:35:52.063 * Caching the disconnected master state.
+75668:S 19 May 2021 06:35:52.063 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 06:35:52.064 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 06:35:52.065 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 06:35:52.066 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 06:35:52.067 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:77393).
+75668:S 19 May 2021 06:35:52.069 * Successful partial resynchronization with master.
+75668:S 19 May 2021 06:35:52.069 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 09:00:01.177 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 09:00:01.835 # Connection with master lost.
+75668:S 19 May 2021 09:00:01.837 * Caching the disconnected master state.
+75668:S 19 May 2021 09:00:01.838 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 09:00:01.842 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 09:00:01.843 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 09:00:01.845 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 09:00:01.847 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:77477).
+75668:S 19 May 2021 09:00:01.849 * Successful partial resynchronization with master.
+75668:S 19 May 2021 09:00:01.850 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 09:46:25.024 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 09:46:25.782 # Connection with master lost.
+75668:S 19 May 2021 09:46:25.783 * Caching the disconnected master state.
+75668:S 19 May 2021 09:46:25.784 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 09:46:25.785 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 09:46:25.785 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 09:46:25.787 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 09:46:25.787 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:78905).
+75668:S 19 May 2021 09:46:25.790 * Successful partial resynchronization with master.
+75668:S 19 May 2021 09:46:25.791 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 10:05:16.931 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 10:05:17.693 # Connection with master lost.
+75668:S 19 May 2021 10:05:17.694 * Caching the disconnected master state.
+75668:S 19 May 2021 10:05:17.694 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 10:05:17.695 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 10:05:17.695 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 10:05:17.696 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 10:05:17.696 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:79017).
+75668:S 19 May 2021 10:05:17.698 * Successful partial resynchronization with master.
+75668:S 19 May 2021 10:05:17.698 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 10:21:46.605 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 10:21:46.654 # Connection with master lost.
+75668:S 19 May 2021 10:21:46.654 * Caching the disconnected master state.
+75668:S 19 May 2021 10:21:46.655 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 10:21:46.656 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 10:21:46.656 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 10:21:46.656 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 10:21:46.657 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:79087).
+75668:S 19 May 2021 10:21:46.658 * Successful partial resynchronization with master.
+75668:S 19 May 2021 10:21:46.659 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 10:37:32.094 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 10:37:32.276 # Connection with master lost.
+75668:S 19 May 2021 10:37:32.276 * Caching the disconnected master state.
+75668:S 19 May 2021 10:37:32.276 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 10:37:32.277 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 10:37:32.277 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 10:37:32.278 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 10:37:32.279 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:79157).
+75668:S 19 May 2021 10:37:32.280 * Successful partial resynchronization with master.
+75668:S 19 May 2021 10:37:32.280 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 13:14:49.696 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 13:14:49.697 # Connection with master lost.
+75668:S 19 May 2021 13:14:49.697 * Caching the disconnected master state.
+75668:S 19 May 2021 13:14:49.697 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 13:14:49.698 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 13:14:49.698 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 13:14:49.699 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 13:14:49.699 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:90651).
+75668:S 19 May 2021 13:14:49.701 * Successful partial resynchronization with master.
+75668:S 19 May 2021 13:14:49.701 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 14:27:53.335 # Connection with master lost.
+75668:S 19 May 2021 14:27:53.337 * Caching the disconnected master state.
+75668:S 19 May 2021 14:27:53.337 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 14:27:53.338 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 14:27:53.339 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 14:27:53.340 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 14:27:53.341 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95411).
+75668:S 19 May 2021 14:27:53.342 * Successful partial resynchronization with master.
+75668:S 19 May 2021 14:27:53.342 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 14:45:20.695 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 14:45:20.696 # Connection with master lost.
+75668:S 19 May 2021 14:45:20.696 * Caching the disconnected master state.
+75668:S 19 May 2021 14:45:20.697 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 14:45:20.697 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 14:45:20.697 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 14:45:20.698 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 14:45:20.701 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95481).
+75668:S 19 May 2021 14:45:20.702 * Successful partial resynchronization with master.
+75668:S 19 May 2021 14:45:20.702 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 15:00:51.526 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 15:00:51.880 # Connection with master lost.
+75668:S 19 May 2021 15:00:51.880 * Caching the disconnected master state.
+75668:S 19 May 2021 15:00:51.881 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 15:00:51.881 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 15:00:51.882 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 15:00:51.883 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 15:00:51.884 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95621).
+75668:S 19 May 2021 15:00:51.885 * Successful partial resynchronization with master.
+75668:S 19 May 2021 15:00:51.886 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 15:04:08.779 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 15:04:08.828 # Connection with master lost.
+75668:S 19 May 2021 15:04:08.829 * Caching the disconnected master state.
+75668:S 19 May 2021 15:04:08.830 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 15:04:08.831 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 15:04:08.832 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 15:04:08.833 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 15:04:08.834 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95691).
+75668:S 19 May 2021 15:04:08.835 * Successful partial resynchronization with master.
+75668:S 19 May 2021 15:04:08.836 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 15:22:11.260 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 15:22:11.520 # Connection with master lost.
+75668:S 19 May 2021 15:22:11.520 * Caching the disconnected master state.
+75668:S 19 May 2021 15:22:11.520 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 15:22:11.521 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 15:22:11.521 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 15:22:11.522 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 15:22:11.522 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95761).
+75668:S 19 May 2021 15:22:11.523 * Successful partial resynchronization with master.
+75668:S 19 May 2021 15:22:11.523 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 17:23:37.611 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 17:23:37.612 # Connection with master lost.
+75668:S 19 May 2021 17:23:37.612 * Caching the disconnected master state.
+75668:S 19 May 2021 17:23:37.612 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 17:23:37.613 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 17:23:37.613 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 17:23:37.613 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 17:23:37.614 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95887).
+75668:S 19 May 2021 17:23:37.615 * Successful partial resynchronization with master.
+75668:S 19 May 2021 17:23:37.615 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 17:25:28.920 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 17:25:28.921 # Connection with master lost.
+75668:S 19 May 2021 17:25:28.921 * Caching the disconnected master state.
+75668:S 19 May 2021 17:25:28.922 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 17:25:28.922 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 17:25:28.922 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 17:25:28.923 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 17:25:28.923 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:95957).
+75668:S 19 May 2021 17:25:28.923 * Successful partial resynchronization with master.
+75668:S 19 May 2021 17:25:28.923 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 17:50:55.344 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 17:50:55.403 # Connection with master lost.
+75668:S 19 May 2021 17:50:55.404 * Caching the disconnected master state.
+75668:S 19 May 2021 17:50:55.404 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 17:50:55.406 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 17:50:55.407 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 17:50:55.408 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 17:50:55.410 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:97077).
+75668:S 19 May 2021 17:50:55.412 * Successful partial resynchronization with master.
+75668:S 19 May 2021 17:50:55.413 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 18:09:05.070 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 18:09:05.323 # Connection with master lost.
+75668:S 19 May 2021 18:09:05.323 * Caching the disconnected master state.
+75668:S 19 May 2021 18:09:05.324 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 18:09:05.324 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 18:09:05.325 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 18:09:05.325 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 18:09:05.326 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:97147).
+75668:S 19 May 2021 18:09:05.327 * Successful partial resynchronization with master.
+75668:S 19 May 2021 18:09:05.327 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 19:29:04.507 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 19:29:04.971 # Connection with master lost.
+75668:S 19 May 2021 19:29:04.971 * Caching the disconnected master state.
+75668:S 19 May 2021 19:29:04.972 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 19:29:04.974 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 19:29:04.975 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 19:29:04.985 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 19:29:04.989 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:97287).
+75668:S 19 May 2021 19:29:04.994 * Successful partial resynchronization with master.
+75668:S 19 May 2021 19:29:04.995 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 20:17:01.198 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 20:17:01.198 # Connection with master lost.
+75668:S 19 May 2021 20:17:01.198 * Caching the disconnected master state.
+75668:S 19 May 2021 20:17:01.199 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 20:17:01.199 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 20:17:01.199 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 20:17:01.199 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 20:17:01.200 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:98841).
+75668:S 19 May 2021 20:17:01.200 * Successful partial resynchronization with master.
+75668:S 19 May 2021 20:17:01.200 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 19 May 2021 21:17:09.214 # MASTER timeout: no data nor PING received...
+75668:S 19 May 2021 21:17:09.280 # Connection with master lost.
+75668:S 19 May 2021 21:17:09.281 * Caching the disconnected master state.
+75668:S 19 May 2021 21:17:09.283 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 19 May 2021 21:17:09.284 * MASTER <-> REPLICA sync started
+75668:S 19 May 2021 21:17:09.285 * Non blocking connect for SYNC fired the event.
+75668:S 19 May 2021 21:17:09.288 * Master replied to PING, replication can continue...
+75668:S 19 May 2021 21:17:09.290 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:98911).
+75668:S 19 May 2021 21:17:09.293 * Successful partial resynchronization with master.
+75668:S 19 May 2021 21:17:09.294 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 00:29:24.049 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 00:29:24.055 # Connection with master lost.
+75668:S 20 May 2021 00:29:24.055 * Caching the disconnected master state.
+75668:S 20 May 2021 00:29:24.056 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 00:29:24.057 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 00:29:24.057 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 00:29:24.058 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 00:29:24.059 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112463).
+75668:S 20 May 2021 00:29:24.061 * Successful partial resynchronization with master.
+75668:S 20 May 2021 00:29:24.061 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 01:57:11.680 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 01:57:11.941 # Connection with master lost.
+75668:S 20 May 2021 01:57:11.943 * Caching the disconnected master state.
+75668:S 20 May 2021 01:57:11.944 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 01:57:11.945 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 01:57:11.946 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 01:57:11.947 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 01:57:11.949 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112589).
+75668:S 20 May 2021 01:57:11.970 * Successful partial resynchronization with master.
+75668:S 20 May 2021 01:57:11.971 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 03:09:53.092 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 03:09:53.092 # Connection with master lost.
+75668:S 20 May 2021 03:09:53.092 * Caching the disconnected master state.
+75668:S 20 May 2021 03:09:53.092 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 03:09:53.093 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 03:09:53.093 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 03:09:53.093 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 03:09:53.093 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112659).
+75668:S 20 May 2021 03:09:53.094 * Successful partial resynchronization with master.
+75668:S 20 May 2021 03:09:53.094 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 03:53:47.527 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 03:53:47.687 # Connection with master lost.
+75668:S 20 May 2021 03:53:47.688 * Caching the disconnected master state.
+75668:S 20 May 2021 03:53:47.688 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 03:53:47.689 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 03:53:47.690 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 03:53:47.691 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 03:53:47.692 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112729).
+75668:S 20 May 2021 03:53:47.695 * Successful partial resynchronization with master.
+75668:S 20 May 2021 03:53:47.696 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 05:54:34.900 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 05:54:34.900 # Connection with master lost.
+75668:S 20 May 2021 05:54:34.901 * Caching the disconnected master state.
+75668:S 20 May 2021 05:54:34.901 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 05:54:34.901 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 05:54:34.901 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 05:54:34.902 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 05:54:34.902 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112813).
+75668:S 20 May 2021 05:54:34.903 * Successful partial resynchronization with master.
+75668:S 20 May 2021 05:54:34.903 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 07:55:21.548 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 07:55:21.702 # Connection with master lost.
+75668:S 20 May 2021 07:55:21.705 * Caching the disconnected master state.
+75668:S 20 May 2021 07:55:21.705 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 07:55:21.706 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 07:55:21.707 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 07:55:21.708 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 07:55:21.709 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:112883).
+75668:S 20 May 2021 07:55:21.711 * Successful partial resynchronization with master.
+75668:S 20 May 2021 07:55:21.711 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 07:58:18.699 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 07:58:19.456 # Connection with master lost.
+75668:S 20 May 2021 07:58:19.457 * Caching the disconnected master state.
+75668:S 20 May 2021 07:58:19.458 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 07:58:19.458 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 07:58:19.458 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 07:58:19.459 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 07:58:19.460 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:113009).
+75668:S 20 May 2021 07:58:19.461 * Successful partial resynchronization with master.
+75668:S 20 May 2021 07:58:19.461 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 08:16:02.225 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 08:16:02.380 # Connection with master lost.
+75668:S 20 May 2021 08:16:02.381 * Caching the disconnected master state.
+75668:S 20 May 2021 08:16:02.382 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 08:16:02.383 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 08:16:02.383 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 08:16:02.384 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 08:16:02.385 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:113065).
+75668:S 20 May 2021 08:16:02.387 * Successful partial resynchronization with master.
+75668:S 20 May 2021 08:16:02.388 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 08:33:22.543 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 08:33:22.544 # Connection with master lost.
+75668:S 20 May 2021 08:33:22.544 * Caching the disconnected master state.
+75668:S 20 May 2021 08:33:22.545 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 08:33:22.545 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 08:33:22.545 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 08:33:22.550 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 08:33:22.550 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:113135).
+75668:S 20 May 2021 08:33:22.551 * Successful partial resynchronization with master.
+75668:S 20 May 2021 08:33:22.552 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 10:34:09.602 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 10:34:09.602 # Connection with master lost.
+75668:S 20 May 2021 10:34:09.603 * Caching the disconnected master state.
+75668:S 20 May 2021 10:34:09.603 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 10:34:09.603 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 10:34:09.604 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 10:34:09.604 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 10:34:09.604 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:113205).
+75668:S 20 May 2021 10:34:09.605 * Successful partial resynchronization with master.
+75668:S 20 May 2021 10:34:09.605 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 11:15:01.341 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 11:15:01.341 # Connection with master lost.
+75668:S 20 May 2021 11:15:01.342 * Caching the disconnected master state.
+75668:S 20 May 2021 11:15:01.342 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 11:15:01.342 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 11:15:01.342 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 11:15:01.343 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 11:15:01.343 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:113275).
+75668:S 20 May 2021 11:15:01.344 * Successful partial resynchronization with master.
+75668:S 20 May 2021 11:15:01.344 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 13:15:28.663 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 13:15:29.231 # Connection with master lost.
+75668:S 20 May 2021 13:15:29.233 * Caching the disconnected master state.
+75668:S 20 May 2021 13:15:29.235 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 13:15:29.236 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 13:15:29.237 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 13:15:29.238 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 13:15:29.239 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:118203).
+75668:S 20 May 2021 13:15:29.241 * Successful partial resynchronization with master.
+75668:S 20 May 2021 13:15:29.241 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 15:16:17.047 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 15:16:17.106 # Connection with master lost.
+75668:S 20 May 2021 15:16:17.107 * Caching the disconnected master state.
+75668:S 20 May 2021 15:16:17.112 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 15:16:17.113 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 15:16:17.114 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 15:16:17.114 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 15:16:17.115 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:118273).
+75668:S 20 May 2021 15:16:17.116 * Successful partial resynchronization with master.
+75668:S 20 May 2021 15:16:17.116 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 20 May 2021 15:45:22.246 # MASTER timeout: no data nor PING received...
+75668:S 20 May 2021 15:45:22.304 # Connection with master lost.
+75668:S 20 May 2021 15:45:22.304 * Caching the disconnected master state.
+75668:S 20 May 2021 15:45:22.304 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 20 May 2021 15:45:22.305 * MASTER <-> REPLICA sync started
+75668:S 20 May 2021 15:45:22.305 * Non blocking connect for SYNC fired the event.
+75668:S 20 May 2021 15:45:22.305 * Master replied to PING, replication can continue...
+75668:S 20 May 2021 15:45:22.306 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:118343).
+75668:S 20 May 2021 15:45:22.307 * Successful partial resynchronization with master.
+75668:S 20 May 2021 15:45:22.307 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 01:38:45.737 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 01:38:45.737 # Connection with master lost.
+75668:S 21 May 2021 01:38:45.738 * Caching the disconnected master state.
+75668:S 21 May 2021 01:38:45.738 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 01:38:45.738 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 01:38:45.739 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 01:38:45.739 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 01:38:45.740 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:165047).
+75668:S 21 May 2021 01:38:45.744 * Successful partial resynchronization with master.
+75668:S 21 May 2021 01:38:45.744 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 03:10:54.291 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 03:10:54.659 # Connection with master lost.
+75668:S 21 May 2021 03:10:54.662 * Caching the disconnected master state.
+75668:S 21 May 2021 03:10:54.667 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 03:10:54.668 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 03:10:54.669 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 03:10:54.671 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 03:10:54.674 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:165159).
+75668:S 21 May 2021 03:10:54.676 * Successful partial resynchronization with master.
+75668:S 21 May 2021 03:10:54.676 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 05:03:09.190 # Connection with master lost.
+75668:S 21 May 2021 05:03:09.190 * Caching the disconnected master state.
+75668:S 21 May 2021 05:03:09.191 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 05:03:09.191 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 05:03:09.191 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 05:03:09.193 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 05:03:09.193 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:165229).
+75668:S 21 May 2021 05:03:09.194 * Successful partial resynchronization with master.
+75668:S 21 May 2021 05:03:09.194 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 07:03:56.385 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 07:03:56.386 # Connection with master lost.
+75668:S 21 May 2021 07:03:56.386 * Caching the disconnected master state.
+75668:S 21 May 2021 07:03:56.386 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 07:03:56.387 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 07:03:56.387 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 07:03:56.387 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 07:03:56.388 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:165299).
+75668:S 21 May 2021 07:03:56.388 * Successful partial resynchronization with master.
+75668:S 21 May 2021 07:03:56.389 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 08:33:04.134 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 08:33:04.134 # Connection with master lost.
+75668:S 21 May 2021 08:33:04.153 * Caching the disconnected master state.
+75668:S 21 May 2021 08:33:04.153 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 08:33:04.154 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 08:33:04.154 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 08:33:04.173 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 08:33:04.176 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:165369).
+75668:S 21 May 2021 08:33:04.179 * Successful partial resynchronization with master.
+75668:S 21 May 2021 08:33:04.179 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 09:41:41.113 # Connection with master lost.
+75668:S 21 May 2021 09:41:41.113 * Caching the disconnected master state.
+75668:S 21 May 2021 09:41:41.113 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 09:41:41.114 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 09:41:41.114 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 09:41:41.115 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 09:41:41.115 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:168617).
+75668:S 21 May 2021 09:41:41.116 * Successful partial resynchronization with master.
+75668:S 21 May 2021 09:41:41.116 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 09:59:32.541 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 09:59:33.102 # Connection with master lost.
+75668:S 21 May 2021 09:59:33.107 * Caching the disconnected master state.
+75668:S 21 May 2021 09:59:33.108 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 09:59:33.108 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 09:59:33.108 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 09:59:33.109 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 09:59:33.113 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:168729).
+75668:S 21 May 2021 09:59:33.115 * Successful partial resynchronization with master.
+75668:S 21 May 2021 09:59:33.116 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 10:15:01.158 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 10:15:01.158 # Connection with master lost.
+75668:S 21 May 2021 10:15:01.158 * Caching the disconnected master state.
+75668:S 21 May 2021 10:15:01.158 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 10:15:01.158 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 10:15:01.158 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 10:15:01.159 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 10:15:01.159 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:168799).
+75668:S 21 May 2021 10:15:01.160 * Successful partial resynchronization with master.
+75668:S 21 May 2021 10:15:01.160 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 10:36:52.482 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 10:36:52.487 # Connection with master lost.
+75668:S 21 May 2021 10:36:52.488 * Caching the disconnected master state.
+75668:S 21 May 2021 10:36:52.489 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 10:36:52.490 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 10:36:52.491 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 10:36:52.491 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 10:36:52.493 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:170381).
+75668:S 21 May 2021 10:36:52.495 * Successful partial resynchronization with master.
+75668:S 21 May 2021 10:36:52.495 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 10:41:29.574 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 10:41:29.575 # Connection with master lost.
+75668:S 21 May 2021 10:41:29.577 * Caching the disconnected master state.
+75668:S 21 May 2021 10:41:29.579 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 10:41:29.582 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 10:41:29.585 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 10:41:29.603 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 10:41:29.608 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:170451).
+75668:S 21 May 2021 10:41:29.609 * Successful partial resynchronization with master.
+75668:S 21 May 2021 10:41:29.610 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 11:30:06.880 # Connection with master lost.
+75668:S 21 May 2021 11:30:06.881 * Caching the disconnected master state.
+75668:S 21 May 2021 11:30:06.881 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 11:30:06.881 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 11:30:06.882 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 11:30:06.882 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 11:30:06.882 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:171389).
+75668:S 21 May 2021 11:30:06.883 * Successful partial resynchronization with master.
+75668:S 21 May 2021 11:30:06.883 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 11:41:14.364 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 11:41:14.365 # Connection with master lost.
+75668:S 21 May 2021 11:41:14.365 * Caching the disconnected master state.
+75668:S 21 May 2021 11:41:14.365 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 11:41:14.366 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 11:41:14.366 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 11:41:14.367 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 11:41:14.367 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:172173).
+75668:S 21 May 2021 11:41:14.368 * Successful partial resynchronization with master.
+75668:S 21 May 2021 11:41:14.368 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 12:56:35.096 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 12:56:35.112 # Connection with master lost.
+75668:S 21 May 2021 12:56:35.113 * Caching the disconnected master state.
+75668:S 21 May 2021 12:56:35.114 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 12:56:35.117 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 12:56:35.118 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 12:56:35.119 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 12:56:35.122 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:177969).
+75668:S 21 May 2021 12:56:35.123 * Successful partial resynchronization with master.
+75668:S 21 May 2021 12:56:35.123 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 16:37:19.736 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 16:37:19.738 # Connection with master lost.
+75668:S 21 May 2021 16:37:19.738 * Caching the disconnected master state.
+75668:S 21 May 2021 16:37:19.739 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 16:37:19.740 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 16:37:19.740 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 16:37:19.741 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 16:37:19.742 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:195945).
+75668:S 21 May 2021 16:37:19.743 * Successful partial resynchronization with master.
+75668:S 21 May 2021 16:37:19.743 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 18:33:03.760 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 18:33:03.761 # Connection with master lost.
+75668:S 21 May 2021 18:33:03.762 * Caching the disconnected master state.
+75668:S 21 May 2021 18:33:03.762 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 18:33:03.762 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 18:33:03.763 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 18:33:03.764 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 18:33:03.764 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205241).
+75668:S 21 May 2021 18:33:03.766 * Successful partial resynchronization with master.
+75668:S 21 May 2021 18:33:03.766 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 18:59:18.768 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 18:59:18.929 # Connection with master lost.
+75668:S 21 May 2021 18:59:18.932 * Caching the disconnected master state.
+75668:S 21 May 2021 18:59:18.933 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 18:59:18.934 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 18:59:18.935 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 18:59:18.935 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 18:59:18.937 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205297).
+75668:S 21 May 2021 18:59:18.938 * Successful partial resynchronization with master.
+75668:S 21 May 2021 18:59:18.939 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 19:16:50.228 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 19:16:50.891 # Connection with master lost.
+75668:S 21 May 2021 19:16:50.891 * Caching the disconnected master state.
+75668:S 21 May 2021 19:16:50.892 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 19:16:50.892 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 19:16:50.893 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 19:16:50.893 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 19:16:50.894 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205409).
+75668:S 21 May 2021 19:16:50.896 * Successful partial resynchronization with master.
+75668:S 21 May 2021 19:16:50.896 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 19:21:47.228 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 19:21:47.229 # Connection with master lost.
+75668:S 21 May 2021 19:21:47.229 * Caching the disconnected master state.
+75668:S 21 May 2021 19:21:47.230 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 19:21:47.231 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 19:21:47.231 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 19:21:47.232 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 19:21:47.233 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205479).
+75668:S 21 May 2021 19:21:47.235 * Successful partial resynchronization with master.
+75668:S 21 May 2021 19:21:47.235 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 19:33:43.680 # Connection with master lost.
+75668:S 21 May 2021 19:33:43.680 * Caching the disconnected master state.
+75668:S 21 May 2021 19:33:43.680 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 19:33:43.680 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 19:33:43.680 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 19:33:43.681 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 19:33:43.681 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205689).
+75668:S 21 May 2021 19:33:43.682 * Successful partial resynchronization with master.
+75668:S 21 May 2021 19:33:43.682 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 19:36:53.808 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 19:36:53.809 # Connection with master lost.
+75668:S 21 May 2021 19:36:53.809 * Caching the disconnected master state.
+75668:S 21 May 2021 19:36:53.809 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 19:36:53.810 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 19:36:53.810 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 19:36:53.811 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 19:36:53.812 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:205759).
+75668:S 21 May 2021 19:36:53.814 * Successful partial resynchronization with master.
+75668:S 21 May 2021 19:36:53.814 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 21 May 2021 22:43:12.025 # MASTER timeout: no data nor PING received...
+75668:S 21 May 2021 22:43:12.874 # Connection with master lost.
+75668:S 21 May 2021 22:43:12.887 * Caching the disconnected master state.
+75668:S 21 May 2021 22:43:12.888 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 21 May 2021 22:43:12.888 * MASTER <-> REPLICA sync started
+75668:S 21 May 2021 22:43:12.889 * Non blocking connect for SYNC fired the event.
+75668:S 21 May 2021 22:43:12.890 * Master replied to PING, replication can continue...
+75668:S 21 May 2021 22:43:12.891 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:218919).
+75668:S 21 May 2021 22:43:12.892 * Successful partial resynchronization with master.
+75668:S 21 May 2021 22:43:12.892 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 01:13:35.977 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 01:13:36.741 # Connection with master lost.
+75668:S 22 May 2021 01:13:36.741 * Caching the disconnected master state.
+75668:S 22 May 2021 01:13:36.742 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 01:13:36.742 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 01:13:36.742 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 01:13:36.743 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 01:13:36.743 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:228901).
+75668:S 22 May 2021 01:13:36.744 * Successful partial resynchronization with master.
+75668:S 22 May 2021 01:13:36.744 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 01:31:18.586 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 01:31:18.744 # Connection with master lost.
+75668:S 22 May 2021 01:31:18.745 * Caching the disconnected master state.
+75668:S 22 May 2021 01:31:18.746 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 01:31:18.747 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 01:31:18.747 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 01:31:18.748 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 01:31:18.749 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229027).
+75668:S 22 May 2021 01:31:18.751 * Successful partial resynchronization with master.
+75668:S 22 May 2021 01:31:18.751 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 03:11:55.901 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 03:11:55.901 # Connection with master lost.
+75668:S 22 May 2021 03:11:55.902 * Caching the disconnected master state.
+75668:S 22 May 2021 03:11:55.902 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 03:11:55.902 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 03:11:55.903 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 03:11:55.903 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 03:11:55.903 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229097).
+75668:S 22 May 2021 03:11:55.904 * Successful partial resynchronization with master.
+75668:S 22 May 2021 03:11:55.904 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 04:37:08.114 # Connection with master lost.
+75668:S 22 May 2021 04:37:08.114 * Caching the disconnected master state.
+75668:S 22 May 2021 04:37:08.114 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 04:37:08.114 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 04:37:08.115 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 04:37:08.116 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 04:37:08.116 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229167).
+75668:S 22 May 2021 04:37:08.117 * Successful partial resynchronization with master.
+75668:S 22 May 2021 04:37:08.117 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 04:52:03.746 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 04:52:03.746 # Connection with master lost.
+75668:S 22 May 2021 04:52:03.746 * Caching the disconnected master state.
+75668:S 22 May 2021 04:52:03.747 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 04:52:03.747 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 04:52:03.747 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 04:52:03.748 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 04:52:03.748 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229237).
+75668:S 22 May 2021 04:52:03.749 * Successful partial resynchronization with master.
+75668:S 22 May 2021 04:52:03.749 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 05:24:10.575 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 05:24:10.575 # Connection with master lost.
+75668:S 22 May 2021 05:24:10.576 * Caching the disconnected master state.
+75668:S 22 May 2021 05:24:10.576 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 05:24:10.576 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 05:24:10.577 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 05:24:10.577 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 05:24:10.577 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229307).
+75668:S 22 May 2021 05:24:10.578 * Successful partial resynchronization with master.
+75668:S 22 May 2021 05:24:10.579 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 05:41:53.163 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 05:41:53.426 # Connection with master lost.
+75668:S 22 May 2021 05:41:53.426 * Caching the disconnected master state.
+75668:S 22 May 2021 05:41:53.427 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 05:41:53.427 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 05:41:53.427 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 05:41:53.428 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 05:41:53.428 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229405).
+75668:S 22 May 2021 05:41:53.429 * Successful partial resynchronization with master.
+75668:S 22 May 2021 05:41:53.429 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 07:42:40.193 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 07:42:40.354 # Connection with master lost.
+75668:S 22 May 2021 07:42:40.355 * Caching the disconnected master state.
+75668:S 22 May 2021 07:42:40.356 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 07:42:40.357 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 07:42:40.357 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 07:42:40.358 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 07:42:40.359 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229475).
+75668:S 22 May 2021 07:42:40.361 * Successful partial resynchronization with master.
+75668:S 22 May 2021 07:42:40.362 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 09:43:27.110 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 09:43:27.168 # Connection with master lost.
+75668:S 22 May 2021 09:43:27.169 * Caching the disconnected master state.
+75668:S 22 May 2021 09:43:27.170 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 09:43:27.171 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 09:43:27.172 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 09:43:27.173 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 09:43:27.174 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229545).
+75668:S 22 May 2021 09:43:27.175 * Successful partial resynchronization with master.
+75668:S 22 May 2021 09:43:27.176 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 10:03:47.326 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 10:03:47.480 # Connection with master lost.
+75668:S 22 May 2021 10:03:47.480 * Caching the disconnected master state.
+75668:S 22 May 2021 10:03:47.480 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 10:03:47.481 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 10:03:47.481 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 10:03:47.481 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 10:03:47.482 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229615).
+75668:S 22 May 2021 10:03:47.482 * Successful partial resynchronization with master.
+75668:S 22 May 2021 10:03:47.483 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 10:15:02.159 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 10:15:02.159 # Connection with master lost.
+75668:S 22 May 2021 10:15:02.160 * Caching the disconnected master state.
+75668:S 22 May 2021 10:15:02.160 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 10:15:02.160 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 10:15:02.160 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 10:15:02.161 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 10:15:02.161 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:229685).
+75668:S 22 May 2021 10:15:02.161 * Successful partial resynchronization with master.
+75668:S 22 May 2021 10:15:02.162 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 11:21:40.637 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 11:21:40.998 # Connection with master lost.
+75668:S 22 May 2021 11:21:40.999 * Caching the disconnected master state.
+75668:S 22 May 2021 11:21:40.999 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 11:21:41.000 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 11:21:41.000 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 11:21:41.001 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 11:21:41.001 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:234613).
+75668:S 22 May 2021 11:21:41.002 * Successful partial resynchronization with master.
+75668:S 22 May 2021 11:21:41.002 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 11:58:32.932 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 11:58:33.598 # Connection with master lost.
+75668:S 22 May 2021 11:58:33.599 * Caching the disconnected master state.
+75668:S 22 May 2021 11:58:33.600 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 11:58:33.601 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 11:58:33.602 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 11:58:33.605 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 11:58:33.606 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:234627).
+75668:S 22 May 2021 11:58:33.608 * Successful partial resynchronization with master.
+75668:S 22 May 2021 11:58:33.609 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 12:37:05.839 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 12:37:06.400 # Connection with master lost.
+75668:S 22 May 2021 12:37:06.401 * Caching the disconnected master state.
+75668:S 22 May 2021 12:37:06.402 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 12:37:06.402 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 12:37:06.403 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 12:37:06.404 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 12:37:06.404 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:234697).
+75668:S 22 May 2021 12:37:06.405 * Successful partial resynchronization with master.
+75668:S 22 May 2021 12:37:06.406 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 12:38:21.097 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 12:38:21.153 # Connection with master lost.
+75668:S 22 May 2021 12:38:21.155 * Caching the disconnected master state.
+75668:S 22 May 2021 12:38:21.155 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 12:38:21.156 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 12:38:21.156 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 12:38:21.157 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 12:38:21.158 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:234711).
+75668:S 22 May 2021 12:38:21.159 * Successful partial resynchronization with master.
+75668:S 22 May 2021 12:38:21.159 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 14:02:27.715 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 14:02:28.282 # Connection with master lost.
+75668:S 22 May 2021 14:02:28.283 * Caching the disconnected master state.
+75668:S 22 May 2021 14:02:28.283 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 14:02:28.284 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 14:02:28.284 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 14:02:28.285 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 14:02:28.286 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:234739).
+75668:S 22 May 2021 14:02:28.287 * Successful partial resynchronization with master.
+75668:S 22 May 2021 14:02:28.287 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 18:37:15.220 # Connection with master lost.
+75668:S 22 May 2021 18:37:15.222 * Caching the disconnected master state.
+75668:S 22 May 2021 18:37:15.223 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 18:37:15.223 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 18:37:15.225 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 18:37:15.228 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 18:37:15.230 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:239107).
+75668:S 22 May 2021 18:37:15.233 * Successful partial resynchronization with master.
+75668:S 22 May 2021 18:37:15.234 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 22 May 2021 19:04:58.179 # MASTER timeout: no data nor PING received...
+75668:S 22 May 2021 19:04:58.257 # Connection with master lost.
+75668:S 22 May 2021 19:04:58.258 * Caching the disconnected master state.
+75668:S 22 May 2021 19:04:58.259 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 22 May 2021 19:04:58.259 * MASTER <-> REPLICA sync started
+75668:S 22 May 2021 19:04:58.260 * Non blocking connect for SYNC fired the event.
+75668:S 22 May 2021 19:04:58.262 * Master replied to PING, replication can continue...
+75668:S 22 May 2021 19:04:58.263 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:241095).
+75668:S 22 May 2021 19:04:58.265 * Successful partial resynchronization with master.
+75668:S 22 May 2021 19:04:58.266 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 09:00:36.358 # MASTER timeout: no data nor PING received...
+75668:S 23 May 2021 09:00:36.359 # Connection with master lost.
+75668:S 23 May 2021 09:00:36.360 * Caching the disconnected master state.
+75668:S 23 May 2021 09:00:36.360 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 09:00:36.360 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 09:00:36.361 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 09:00:36.361 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 09:00:36.362 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:269501).
+75668:S 23 May 2021 09:00:36.365 * Successful partial resynchronization with master.
+75668:S 23 May 2021 09:00:36.365 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 13:12:09.423 # Connection with master lost.
+75668:S 23 May 2021 13:12:09.495 * Caching the disconnected master state.
+75668:S 23 May 2021 13:12:09.499 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 13:12:09.503 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 13:12:09.504 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 13:12:09.828 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 13:12:09.834 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:269935).
+75668:S 23 May 2021 13:12:09.854 * Successful partial resynchronization with master.
+75668:S 23 May 2021 13:12:09.857 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 15:22:02.636 # MASTER timeout: no data nor PING received...
+75668:S 23 May 2021 15:22:02.637 # Connection with master lost.
+75668:S 23 May 2021 15:22:02.637 * Caching the disconnected master state.
+75668:S 23 May 2021 15:22:02.637 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 15:22:02.638 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 15:22:02.638 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 15:22:02.640 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 15:22:02.643 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:280351).
+75668:S 23 May 2021 15:22:02.645 * Successful partial resynchronization with master.
+75668:S 23 May 2021 15:22:02.646 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 15:47:02.337 # Connection with master lost.
+75668:S 23 May 2021 15:47:02.338 * Caching the disconnected master state.
+75668:S 23 May 2021 15:47:02.339 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 15:47:02.339 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 15:47:02.339 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 15:47:02.348 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 15:47:02.351 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:282269).
+75668:S 23 May 2021 15:47:02.353 * Successful partial resynchronization with master.
+75668:S 23 May 2021 15:47:02.354 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 18:29:37.220 # MASTER timeout: no data nor PING received...
+75668:S 23 May 2021 18:29:37.263 # Connection with master lost.
+75668:S 23 May 2021 18:29:37.263 * Caching the disconnected master state.
+75668:S 23 May 2021 18:29:37.264 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 18:29:37.264 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 18:29:37.265 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 18:29:37.265 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 18:29:37.266 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:294645).
+75668:S 23 May 2021 18:29:37.267 * Successful partial resynchronization with master.
+75668:S 23 May 2021 18:29:37.267 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+75668:S 23 May 2021 18:52:42.335 # MASTER timeout: no data nor PING received...
+75668:S 23 May 2021 18:52:42.382 # Connection with master lost.
+75668:S 23 May 2021 18:52:42.383 * Caching the disconnected master state.
+75668:S 23 May 2021 18:52:42.384 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 18:52:42.384 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 18:52:42.385 * Non blocking connect for SYNC fired the event.
+75668:S 23 May 2021 18:52:42.386 * Master replied to PING, replication can continue...
+75668:S 23 May 2021 18:52:42.387 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:296283).
+75668:S 23 May 2021 18:52:42.390 * Successful partial resynchronization with master.
+75668:S 23 May 2021 18:52:42.390 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+63892:C 23 May 2021 19:06:16.459 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+63892:C 23 May 2021 19:06:16.459 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=63892, just started
+63892:C 23 May 2021 19:06:16.459 # Configuration loaded
+63892:S 23 May 2021 19:06:16.461 * Increased maximum number of open files to 10032 (it was originally set to 256).
+63892:S 23 May 2021 19:06:16.461 * monotonic clock: POSIX clock_gettime
+63892:S 23 May 2021 19:06:16.462 # Warning: Could not create server TCP listening socket 127.0.0.1:6371: bind: Address already in use
+63892:S 23 May 2021 19:06:16.462 # Failed listening on port 6371 (TCP), aborting.
+75668:S 23 May 2021 19:12:09.253 * 1 changes in 3600 seconds. Saving...
+75668:S 23 May 2021 19:12:09.255 * Background saving started by pid 65103
+65103:C 23 May 2021 19:12:09.257 * DB saved on disk
+75668:S 23 May 2021 19:12:09.357 * Background saving terminated with success
+75668:S 23 May 2021 19:45:48.895 # Connection with master lost.
+75668:S 23 May 2021 19:45:48.896 * Caching the disconnected master state.
+75668:S 23 May 2021 19:45:48.896 * Reconnecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:48.897 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:48.897 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:49.294 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:49.295 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:49.295 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:50.307 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:50.307 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:50.308 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:51.320 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:51.320 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:51.320 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:52.331 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:52.332 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:52.333 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:53.345 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:53.345 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:53.346 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:54.358 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:54.358 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:54.359 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:55.372 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:55.373 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:55.374 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:56.386 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:56.387 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:56.387 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:57.399 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:57.400 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:57.401 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:58.414 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:58.415 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:58.415 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:45:59.430 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:45:59.431 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:45:59.431 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:46:00.442 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:46:00.443 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:46:00.443 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:46:01.455 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:46:01.456 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:46:01.456 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:46:02.468 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:46:02.469 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:46:02.470 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:46:03.482 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:46:03.483 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:46:03.483 # Error condition on socket for SYNC: Connection refused
+75668:S 23 May 2021 19:46:04.498 * Connecting to MASTER 127.0.0.1:6370
+75668:S 23 May 2021 19:46:04.499 * MASTER <-> REPLICA sync started
+75668:S 23 May 2021 19:46:04.500 # Error condition on socket for SYNC: Connection refused
+75668:signal-handler (1621770364) Received SIGTERM scheduling shutdown...
+75668:S 23 May 2021 19:46:04.906 # User requested shutdown...
+75668:S 23 May 2021 19:46:04.906 * Saving the final RDB snapshot before exiting.
+75668:S 23 May 2021 19:46:04.907 * DB saved on disk
+75668:S 23 May 2021 19:46:04.907 * Removing the pid file.
+75668:S 23 May 2021 19:46:04.907 # Redis is now ready to exit, bye bye...
+72040:C 23 May 2021 19:47:19.407 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+72040:C 23 May 2021 19:47:19.408 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=72040, just started
+72040:C 23 May 2021 19:47:19.408 # Configuration loaded
+72040:S 23 May 2021 19:47:19.410 * Increased maximum number of open files to 10032 (it was originally set to 256).
+72040:S 23 May 2021 19:47:19.410 * monotonic clock: POSIX clock_gettime
+72040:S 23 May 2021 19:47:19.411 * Running mode=standalone, port=6371.
+72040:S 23 May 2021 19:47:19.412 # Server initialized
+72040:S 23 May 2021 19:47:19.412 * Loading RDB produced by version 6.2.3
+72040:S 23 May 2021 19:47:19.413 * RDB age 75 seconds
+72040:S 23 May 2021 19:47:19.413 * RDB memory usage when created 2.02 Mb
+72040:S 23 May 2021 19:47:19.414 * DB loaded from disk: 0.001 seconds
+72040:S 23 May 2021 19:47:19.414 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+72040:S 23 May 2021 19:47:19.415 * Ready to accept connections
+72040:S 23 May 2021 19:47:19.415 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:47:19.416 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:47:19.416 * Non blocking connect for SYNC fired the event.
+72040:S 23 May 2021 19:47:19.416 * Master replied to PING, replication can continue...
+72040:S 23 May 2021 19:47:19.417 * Trying a partial resynchronization (request 3609a3613698c0c62f47f1a4d58bd1ba18556613:300735).
+72040:S 23 May 2021 19:47:19.419 * Full resync from master: 277a1a1e23b24102f3a128fbb75a34fc57c0acdb:0
+72040:S 23 May 2021 19:47:19.419 * Discarding previously cached master state.
+72040:S 23 May 2021 19:47:19.452 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+72040:S 23 May 2021 19:47:19.452 * MASTER <-> REPLICA sync: Flushing old data
+72040:S 23 May 2021 19:47:19.452 * MASTER <-> REPLICA sync: Loading DB in memory
+72040:S 23 May 2021 19:47:19.453 * Loading RDB produced by version 6.2.3
+72040:S 23 May 2021 19:47:19.453 * RDB age 0 seconds
+72040:S 23 May 2021 19:47:19.453 * RDB memory usage when created 2.02 Mb
+72040:S 23 May 2021 19:47:19.453 * MASTER <-> REPLICA sync: Finished with success
+72040:S 23 May 2021 19:51:14.394 # Connection with master lost.
+72040:S 23 May 2021 19:51:14.394 * Caching the disconnected master state.
+72040:S 23 May 2021 19:51:14.395 * Reconnecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:14.395 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:14.395 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:15.254 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:15.255 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:15.256 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:16.269 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:16.271 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:16.271 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:17.281 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:17.282 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:17.282 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:18.294 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:18.295 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:18.295 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:19.309 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:19.310 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:19.311 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:20.321 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:20.331 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:20.331 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:21.342 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:21.343 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:21.344 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:22.355 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:22.356 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:22.356 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:23.365 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:23.365 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:23.366 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:24.374 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:24.375 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:24.375 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:25.383 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:25.383 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:25.383 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:26.389 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:26.389 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:26.389 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:27.397 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:27.397 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:27.398 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:28.406 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:28.407 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:28.407 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:29.416 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:29.417 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:29.417 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:30.427 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:30.428 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:30.430 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:31.439 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:31.440 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:31.440 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:32.448 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:32.449 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:32.449 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:33.458 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:33.459 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:33.459 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:34.471 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:34.471 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:34.472 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:35.486 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:35.493 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:35.494 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:36.504 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:36.505 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:36.506 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:37.517 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:37.518 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:37.519 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:38.528 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:38.529 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:38.529 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:39.538 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:39.539 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:39.539 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:40.552 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:40.553 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:40.553 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:41.563 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:41.564 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:41.565 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:42.579 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:42.580 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:42.580 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:43.593 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:43.594 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:43.594 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:44.605 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:44.606 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:44.606 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:45.620 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:45.621 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:45.622 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:46.633 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:46.634 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:46.634 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:47.648 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:47.649 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:47.649 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:48.662 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:48.663 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:48.664 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:49.676 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:49.677 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:49.678 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:50.690 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:50.692 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:50.692 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:51.704 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:51.705 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:51.705 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:52.718 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:52.719 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:52.720 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:53.731 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:53.732 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:53.733 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:54.745 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:54.746 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:54.746 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:55.755 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:55.755 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:55.755 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:56.763 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:56.764 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:56.764 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:57.773 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:57.774 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:57.775 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:58.785 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:58.786 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:58.786 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:51:59.798 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:51:59.798 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:51:59.799 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:00.806 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:00.807 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:00.807 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:01.819 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:01.820 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:01.820 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:02.833 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:02.834 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:02.834 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:03.847 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:03.848 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:03.849 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:04.861 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:04.862 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:04.862 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:05.875 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:05.876 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:05.876 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:06.888 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:06.889 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:06.889 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:07.903 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:07.904 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:07.905 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:08.916 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:08.917 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:08.918 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:09.930 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:09.930 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:09.930 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:10.941 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:10.942 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:10.942 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:11.953 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:11.954 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:11.954 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:12.962 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:12.963 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:12.963 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:13.975 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:13.976 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:13.977 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:14.988 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:14.989 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:14.990 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:16.000 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:16.001 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:16.002 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:17.012 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:17.013 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:17.013 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:18.025 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:18.026 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:18.027 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:19.038 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:19.039 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:19.039 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:20.051 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:20.052 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:20.053 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:21.062 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:21.063 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:21.064 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:22.077 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:22.077 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:22.078 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:23.088 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:23.089 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:23.089 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:24.101 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:24.101 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:24.102 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:25.115 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:25.116 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:25.117 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:26.130 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:26.131 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:26.131 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:27.143 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:27.144 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:27.145 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:28.152 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:28.152 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:28.153 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:29.161 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:29.161 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:29.161 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:30.171 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:30.172 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:30.173 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:31.184 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:31.185 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:31.186 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:32.195 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:32.195 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:32.196 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:33.205 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:33.206 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:33.206 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:34.218 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:34.219 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:34.220 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:35.232 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:35.233 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:35.234 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:36.245 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:36.246 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:36.246 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:37.256 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:37.256 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:37.256 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:38.264 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:38.265 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:38.265 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:39.277 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:39.279 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:39.279 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:40.291 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:40.292 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:40.293 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:41.306 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:41.307 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:41.307 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:42.315 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:42.316 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:42.316 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:43.325 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:43.326 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:43.327 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:44.339 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:44.340 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:44.341 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:45.355 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:45.356 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:45.356 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:46.368 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:46.369 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:46.370 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:47.381 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:47.381 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:47.382 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:48.395 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:48.396 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:48.396 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:49.412 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:49.413 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:49.413 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:50.426 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:50.426 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:50.427 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:51.440 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:51.441 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:51.441 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:52.453 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:52.454 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:52.454 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:53.466 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:53.466 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:53.466 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:54.481 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:54.482 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:54.482 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:55.496 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:55.497 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:55.498 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:56.506 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:56.507 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:56.507 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:57.520 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:57.520 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:57.521 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:58.531 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:58.533 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:58.533 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:52:59.544 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:52:59.545 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:52:59.545 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:00.554 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:00.554 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:00.554 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:01.565 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:01.565 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:01.566 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:02.573 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:02.574 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:02.574 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:03.586 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:03.586 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:03.587 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:04.601 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:04.602 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:04.602 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:05.614 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:05.615 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:05.616 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:06.627 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:06.627 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:06.628 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:07.638 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:07.639 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:07.639 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:08.649 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:08.649 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:08.649 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:09.662 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:09.662 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:09.662 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:10.674 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:10.675 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:10.675 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:11.689 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:11.690 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:11.690 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:12.701 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:12.702 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:12.703 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:13.715 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:13.716 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:13.716 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:14.728 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:14.729 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:14.730 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:15.740 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:15.741 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:15.742 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:16.754 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:16.754 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:16.754 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:17.765 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:17.765 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:17.766 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:18.778 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:18.779 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:18.780 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:19.792 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:19.792 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:19.792 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:20.799 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:20.799 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:20.799 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:21.807 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:21.808 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:21.808 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:22.821 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:22.821 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:22.822 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:23.832 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:23.833 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:23.833 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:24.844 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:24.845 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:24.845 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:25.851 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:25.851 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:25.852 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:26.862 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:26.863 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:26.864 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:27.876 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:27.877 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:27.877 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:28.884 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:28.885 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:28.885 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:29.892 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:29.892 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:29.892 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:30.899 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:30.899 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:30.900 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:31.912 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:31.913 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:31.914 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:32.921 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:32.921 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:32.922 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:33.930 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:33.930 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:33.931 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:34.939 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:34.940 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:34.940 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:35.947 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:35.948 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:35.948 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:36.958 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:36.960 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:36.961 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:37.969 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:37.970 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:37.971 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:38.982 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:38.983 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:38.984 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:39.994 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:39.995 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:39.995 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:41.009 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:41.009 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:41.010 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:42.020 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:42.021 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:42.021 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:43.033 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:43.034 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:43.035 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:44.049 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:44.050 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:44.051 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:45.063 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:45.064 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:45.064 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:46.075 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:46.076 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:46.076 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:47.091 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:47.092 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:47.093 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:48.106 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:48.106 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:48.107 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:49.116 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:49.117 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:49.118 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:50.127 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:50.127 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:50.128 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:51.136 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:51.137 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:51.137 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:52.148 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:52.148 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:52.149 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:53.158 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:53.159 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:53.159 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:54.167 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:54.167 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:54.168 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 19:53:55.178 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 19:53:55.179 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 19:53:55.181 * Non blocking connect for SYNC fired the event.
+72040:S 23 May 2021 19:53:55.182 * Master replied to PING, replication can continue...
+72040:S 23 May 2021 19:53:55.182 * Trying a partial resynchronization (request 277a1a1e23b24102f3a128fbb75a34fc57c0acdb:13002).
+72040:S 23 May 2021 19:53:55.185 * Full resync from master: 67131fa2b29a21d10197e7364dafc3502b5d30d0:0
+72040:S 23 May 2021 19:53:55.185 * Discarding previously cached master state.
+72040:S 23 May 2021 19:53:55.280 * MASTER <-> REPLICA sync: receiving 210 bytes from master to disk
+72040:S 23 May 2021 19:53:55.280 * MASTER <-> REPLICA sync: Flushing old data
+72040:S 23 May 2021 19:53:55.280 * MASTER <-> REPLICA sync: Loading DB in memory
+72040:S 23 May 2021 19:53:55.281 * Loading RDB produced by version 6.2.3
+72040:S 23 May 2021 19:53:55.282 * RDB age 0 seconds
+72040:S 23 May 2021 19:53:55.282 * RDB memory usage when created 2.02 Mb
+72040:S 23 May 2021 19:53:55.283 * MASTER <-> REPLICA sync: Finished with success
+72040:S 23 May 2021 20:02:59.072 # Connection with master lost.
+72040:S 23 May 2021 20:02:59.073 * Caching the disconnected master state.
+72040:S 23 May 2021 20:02:59.074 * Reconnecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:02:59.074 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:02:59.075 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:02:59.347 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:02:59.347 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:02:59.347 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:00.361 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:00.361 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:00.362 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:01.374 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:01.375 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:01.375 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:02.387 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:02.388 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:02.388 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:03.398 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:03.399 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:03.399 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:04.409 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:04.409 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:04.410 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:05.422 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:05.423 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:05.423 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:06.435 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:06.436 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:06.437 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:07.449 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:07.450 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:07.450 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:08.464 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:08.465 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:08.465 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:09.479 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:09.479 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:09.479 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:10.494 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:10.495 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:10.495 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:11.507 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:11.508 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:11.509 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:12.525 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:12.525 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:12.525 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:13.531 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:13.532 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:13.532 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:14.540 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:14.540 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:14.540 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:15.554 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:15.555 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:15.557 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:16.569 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:16.570 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:16.570 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:17.584 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:17.585 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:17.585 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:18.600 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:18.600 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:18.601 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:19.612 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:19.613 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:19.614 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:20.625 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:20.626 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:20.626 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:21.635 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:21.637 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:21.637 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:22.647 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:22.647 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:22.648 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:23.657 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:23.658 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:23.658 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:24.665 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:24.665 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:24.665 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:25.676 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:25.676 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:25.677 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:26.689 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:26.690 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:26.690 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:27.705 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:27.706 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:27.707 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:28.715 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:28.716 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:28.716 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:29.724 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:29.725 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:29.726 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:30.733 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:30.734 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:30.734 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:31.742 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:31.742 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:31.743 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:32.757 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:32.758 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:32.758 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:33.767 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:33.768 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:33.768 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:34.778 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:34.779 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:34.779 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:35.793 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:35.794 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:35.794 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:36.807 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:36.808 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:36.809 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:37.821 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:37.822 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:37.822 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:38.835 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:38.836 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:38.837 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:39.848 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:39.849 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:39.849 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:40.863 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:40.864 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:40.864 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:41.876 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:41.877 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:41.878 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:42.890 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:42.891 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:42.891 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:43.901 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:43.902 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:43.903 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:44.914 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:44.915 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:44.915 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:45.927 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:45.928 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:45.929 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:46.940 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:46.941 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:46.941 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:47.954 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:47.955 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:47.955 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:48.966 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:48.966 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:48.967 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:49.979 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:49.980 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:49.981 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:50.994 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:50.995 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:50.996 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:52.007 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:52.008 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:52.008 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:53.020 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:53.021 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:53.021 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:54.035 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:54.036 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:54.036 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:55.047 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:55.048 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:55.049 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:56.062 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:56.063 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:56.064 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:57.074 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:57.074 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:57.075 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:58.087 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:58.087 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:58.087 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:03:59.099 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:03:59.099 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:03:59.099 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:00.106 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:00.107 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:00.108 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:01.119 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:01.120 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:01.120 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:02.129 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:02.129 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:02.129 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:03.139 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:03.139 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:03.139 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:04.147 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:04.147 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:04.148 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:05.157 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:05.158 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:05.158 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:06.170 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:06.171 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:06.172 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:07.184 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:07.184 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:07.185 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:08.195 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:08.196 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:08.197 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:09.207 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:09.208 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:09.209 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:10.216 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:10.216 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:10.216 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:11.222 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:11.222 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:11.222 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:12.233 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:12.235 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:12.236 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:13.245 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:13.245 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:13.245 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:14.258 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:14.259 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:14.260 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:15.271 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:15.272 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:15.272 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:16.287 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:16.287 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:16.288 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:17.302 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:17.303 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:17.304 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:18.316 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:18.317 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:18.318 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:19.329 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:19.330 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:19.330 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:20.339 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:20.340 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:20.341 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:21.350 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:21.352 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:21.353 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:22.362 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:22.363 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:22.364 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:23.372 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:23.373 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:23.373 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:24.387 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:24.387 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:24.388 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:25.398 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:25.399 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:25.400 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:26.408 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:26.409 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:26.409 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:27.418 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:27.418 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:27.419 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:28.431 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:28.432 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:28.433 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:29.441 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:29.441 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:29.442 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:30.456 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:30.456 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:30.457 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:31.469 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:31.470 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:31.470 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:32.484 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:32.484 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:32.484 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:33.497 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:33.498 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:33.499 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:34.512 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:34.513 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:34.513 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:35.526 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:35.527 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:35.531 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:36.540 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:36.541 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:36.542 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:37.552 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:37.552 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:37.553 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:38.562 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:38.562 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:38.563 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:39.573 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:39.573 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:39.573 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:40.586 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:40.586 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:40.587 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:41.599 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:41.601 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:41.601 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:42.611 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:42.611 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:42.612 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:43.623 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:43.624 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:43.625 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:44.635 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:44.636 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:44.636 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:45.645 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:45.646 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:45.647 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:46.656 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:46.657 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:46.657 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:47.669 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:47.670 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:47.671 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:48.685 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:48.686 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:48.686 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:49.697 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:49.697 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:49.698 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:50.707 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:50.707 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:50.708 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:51.718 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:51.719 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:51.719 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:52.733 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:52.734 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:52.734 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:53.748 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:53.749 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:53.749 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:54.759 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:54.760 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:54.760 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:55.772 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:55.773 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:55.774 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:56.785 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:56.785 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:56.786 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:57.794 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:57.795 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:57.795 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:58.806 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:58.806 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:58.807 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:04:59.815 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:04:59.816 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:04:59.816 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:00.828 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:00.829 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:00.830 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:01.842 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:01.843 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:01.843 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:02.852 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:02.853 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:02.854 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:03.867 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:03.868 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:03.869 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:04.875 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:04.876 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:04.876 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:05.887 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:05.888 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:05.888 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:06.896 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:06.896 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:06.896 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:07.905 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:07.905 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:07.906 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:08.918 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:08.919 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:08.919 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:09.929 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:09.930 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:09.930 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:10.937 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:10.938 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:10.938 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:11.946 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:11.946 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:11.947 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:12.955 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:12.956 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:12.956 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:13.969 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:13.970 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:13.970 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:14.985 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:14.985 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:14.986 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:16.001 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:16.002 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:16.003 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:17.014 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:17.015 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:17.015 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:18.026 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:18.027 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:18.027 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:19.041 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:19.041 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:19.042 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:20.050 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:20.051 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:20.051 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:21.061 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:21.062 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:21.062 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:22.072 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:22.073 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:22.074 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:23.085 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:23.086 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:23.086 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:24.097 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:24.098 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:24.098 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:25.106 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:25.106 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:25.107 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:26.120 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:26.120 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:26.120 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:27.129 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:27.130 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:27.130 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:28.141 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:28.142 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:28.143 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:29.152 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:29.153 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:29.154 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:30.163 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:30.164 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:30.164 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:31.175 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:31.175 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:31.175 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:32.188 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:32.189 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:32.189 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:33.201 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:33.202 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:33.203 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:34.213 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:34.213 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:34.214 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:35.229 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:35.230 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:35.230 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:36.241 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:36.242 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:36.243 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:37.255 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:37.256 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:37.256 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:38.267 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:38.268 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:38.268 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:39.281 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:39.282 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:39.283 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:40.295 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:40.296 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:40.297 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:41.308 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:41.309 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:41.310 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:42.322 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:42.323 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:42.324 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:43.337 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:43.339 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:43.339 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:44.353 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:44.353 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:44.354 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:45.367 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:45.368 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:45.368 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:46.379 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:46.380 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:46.380 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:47.393 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:47.394 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:47.394 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:48.405 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:48.406 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:48.406 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:49.417 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:49.418 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:49.419 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:50.434 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:50.435 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:50.436 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:51.448 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:51.449 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:51.449 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:52.461 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:52.462 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:52.463 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:53.477 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:53.478 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:53.479 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:54.491 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:54.492 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:54.493 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:55.504 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:55.505 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:55.505 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:56.518 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:56.519 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:56.520 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:57.532 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:57.533 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:57.534 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:58.547 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:58.547 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:58.548 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:05:59.562 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:05:59.563 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:05:59.563 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:00.577 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:00.578 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:00.578 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:01.590 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:01.592 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:01.592 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:02.604 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:02.605 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:02.606 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:03.619 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:03.620 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:03.620 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:04.634 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:04.635 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:04.636 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:05.647 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:05.648 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:05.649 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:06.663 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:06.664 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:06.664 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:07.678 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:07.679 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:07.679 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:08.689 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:08.689 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:08.690 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:09.698 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:09.698 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:09.699 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:10.710 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:10.711 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:10.711 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:11.726 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:11.727 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:11.727 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:12.741 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:12.742 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:12.742 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:13.755 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:13.756 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:13.756 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:14.768 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:14.769 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:14.770 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:15.779 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:15.780 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:15.781 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:16.793 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:16.794 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:16.794 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:17.806 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:17.807 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:17.808 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:18.823 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:18.824 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:18.824 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:19.836 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:19.837 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:19.838 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:20.849 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:20.850 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:20.851 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:21.861 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:21.861 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:21.861 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:22.872 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:22.872 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:22.873 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:23.887 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:23.887 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:23.888 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:24.898 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:24.898 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:24.899 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:25.907 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:25.907 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:25.907 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:26.920 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:26.921 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:26.921 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:27.935 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:27.936 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:27.936 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:28.951 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:28.952 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:28.952 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:29.965 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:29.966 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:29.969 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:30.981 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:30.982 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:30.983 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:31.995 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:31.997 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:31.998 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:33.007 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:33.008 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:33.008 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:34.015 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:34.016 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:34.016 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:35.028 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:35.028 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:35.029 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:36.037 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:36.037 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:36.038 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:37.043 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:37.044 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:37.045 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:38.054 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:38.055 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:38.056 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:39.064 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:39.064 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:39.064 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:40.070 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:40.071 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:40.071 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:41.080 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:41.081 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:41.081 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:42.092 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:42.093 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:42.093 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:43.106 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:43.107 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:43.107 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:44.118 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:44.119 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:44.119 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:45.130 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:45.131 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:45.132 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:46.147 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:46.148 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:46.148 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:47.161 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:47.162 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:47.162 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:48.169 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:48.169 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:48.169 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:49.178 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:49.178 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:49.179 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:50.188 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:50.189 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:50.189 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:51.199 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:51.199 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:51.200 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:06:52.212 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:06:52.212 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:06:52.212 * Non blocking connect for SYNC fired the event.
+72040:S 23 May 2021 20:06:52.213 * Master replied to PING, replication can continue...
+72040:S 23 May 2021 20:06:52.213 * Trying a partial resynchronization (request 67131fa2b29a21d10197e7364dafc3502b5d30d0:37635).
+72040:S 23 May 2021 20:06:52.216 * Full resync from master: 86aaf6085745334df3c96e9d3f5c074f4d039987:0
+72040:S 23 May 2021 20:06:52.216 * Discarding previously cached master state.
+72040:S 23 May 2021 20:06:52.236 * MASTER <-> REPLICA sync: receiving 210 bytes from master to disk
+72040:S 23 May 2021 20:06:52.236 * MASTER <-> REPLICA sync: Flushing old data
+72040:S 23 May 2021 20:06:52.236 * MASTER <-> REPLICA sync: Loading DB in memory
+72040:S 23 May 2021 20:06:52.237 * Loading RDB produced by version 6.2.3
+72040:S 23 May 2021 20:06:52.237 * RDB age 0 seconds
+72040:S 23 May 2021 20:06:52.237 * RDB memory usage when created 2.02 Mb
+72040:S 23 May 2021 20:06:52.237 * MASTER <-> REPLICA sync: Finished with success
+72040:S 23 May 2021 20:10:03.857 # Connection with master lost.
+72040:S 23 May 2021 20:10:03.858 * Caching the disconnected master state.
+72040:S 23 May 2021 20:10:03.858 * Reconnecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:10:03.859 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:10:03.859 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:10:04.365 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:10:04.366 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:10:04.367 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:10:05.381 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:10:05.382 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:10:05.383 # Error condition on socket for SYNC: Connection refused
+72040:S 23 May 2021 20:10:06.396 * Connecting to MASTER 127.0.0.1:6370
+72040:S 23 May 2021 20:10:06.397 * MASTER <-> REPLICA sync started
+72040:S 23 May 2021 20:10:06.398 # Error condition on socket for SYNC: Connection refused
+72040:M 23 May 2021 20:10:07.157 * Discarding previously cached master state.
+72040:M 23 May 2021 20:10:07.157 # Setting secondary replication ID to 86aaf6085745334df3c96e9d3f5c074f4d039987, valid up to offset: 19619. New replication ID is 0b4f249fa2f4fad2e247b75ec778875635113240
+72040:M 23 May 2021 20:10:07.157 * MASTER MODE enabled (user request from 'id=12 addr=127.0.0.1:58188 laddr=127.0.0.1:6371 fd=13 name=sentinel-7d81fdd4-cmd age=49 idle=0 flags=x db=0 sub=0 psub=0 multi=4 qbuf=188 qbuf-free=44862 argv-mem=4 obl=45 oll=0 omem=0 tot-mem=62500 events=r cmd=exec user=default redir=-1')
+72040:M 23 May 2021 20:10:07.162 # CONFIG REWRITE executed with success.
+72040:M 23 May 2021 20:10:08.112 * Replica 127.0.0.1:6372 asks for synchronization
+72040:M 23 May 2021 20:10:08.112 * Partial resynchronization request from 127.0.0.1:6372 accepted. Sending 437 bytes of backlog starting from offset 19619.
+72040:M 23 May 2021 20:12:36.914 * Replica 127.0.0.1:6370 asks for synchronization
+72040:M 23 May 2021 20:12:36.916 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f171fa43743f14bbab755b8dfa346e3466e88ec1', my replication IDs are '0b4f249fa2f4fad2e247b75ec778875635113240' and '86aaf6085745334df3c96e9d3f5c074f4d039987')
+72040:M 23 May 2021 20:12:36.916 * Starting BGSAVE for SYNC with target: disk
+72040:M 23 May 2021 20:12:36.917 * Background saving started by pid 77058
+77058:C 23 May 2021 20:12:36.920 * DB saved on disk
+72040:M 23 May 2021 20:12:36.989 * Background saving terminated with success
+72040:M 23 May 2021 20:12:36.990 * Synchronization with replica 127.0.0.1:6370 succeeded

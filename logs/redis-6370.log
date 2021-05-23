@@ -1,0 +1,135 @@
+75639:C 17 May 2021 22:21:38.397 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+75639:C 17 May 2021 22:21:38.398 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=75639, just started
+75639:C 17 May 2021 22:21:38.398 # Configuration loaded
+75639:M 17 May 2021 22:21:38.400 * Increased maximum number of open files to 10032 (it was originally set to 256).
+75639:M 17 May 2021 22:21:38.400 * monotonic clock: POSIX clock_gettime
+75639:M 17 May 2021 22:21:38.400 # Warning: Could not create server TCP listening socket 127.0.0.1:6370: bind: Address already in use
+75639:M 17 May 2021 22:21:38.401 # Failed listening on port 6370 (TCP), aborting.
+63849:C 23 May 2021 19:06:04.394 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+63849:C 23 May 2021 19:06:04.395 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=63849, just started
+63849:C 23 May 2021 19:06:04.395 # Configuration loaded
+63849:M 23 May 2021 19:06:04.397 * Increased maximum number of open files to 10032 (it was originally set to 256).
+63849:M 23 May 2021 19:06:04.397 * monotonic clock: POSIX clock_gettime
+63849:M 23 May 2021 19:06:04.398 # Warning: Could not create server TCP listening socket 127.0.0.1:6370: bind: Address already in use
+63849:M 23 May 2021 19:06:04.398 # Failed listening on port 6370 (TCP), aborting.
+72018:C 23 May 2021 19:47:14.885 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+72018:C 23 May 2021 19:47:14.885 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=72018, just started
+72018:C 23 May 2021 19:47:14.886 # Configuration loaded
+72018:M 23 May 2021 19:47:14.887 * Increased maximum number of open files to 10032 (it was originally set to 256).
+72018:M 23 May 2021 19:47:14.887 * monotonic clock: POSIX clock_gettime
+72018:M 23 May 2021 19:47:14.894 * Running mode=standalone, port=6370.
+72018:M 23 May 2021 19:47:14.894 # Server initialized
+72018:M 23 May 2021 19:47:14.895 * Ready to accept connections
+72018:M 23 May 2021 19:47:19.417 * Replica 127.0.0.1:6371 asks for synchronization
+72018:M 23 May 2021 19:47:19.418 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '3609a3613698c0c62f47f1a4d58bd1ba18556613', my replication IDs are 'fcdc62556f97fb02e2c9652dfff67b450d313b89' and '0000000000000000000000000000000000000000')
+72018:M 23 May 2021 19:47:19.418 * Replication backlog created, my new replication IDs are '277a1a1e23b24102f3a128fbb75a34fc57c0acdb' and '0000000000000000000000000000000000000000'
+72018:M 23 May 2021 19:47:19.418 * Starting BGSAVE for SYNC with target: disk
+72018:M 23 May 2021 19:47:19.419 * Background saving started by pid 72047
+72047:C 23 May 2021 19:47:19.420 * DB saved on disk
+72018:M 23 May 2021 19:47:19.451 * Background saving terminated with success
+72018:M 23 May 2021 19:47:19.452 * Synchronization with replica 127.0.0.1:6371 succeeded
+72018:M 23 May 2021 19:47:55.305 * Replica 127.0.0.1:6372 asks for synchronization
+72018:M 23 May 2021 19:47:55.305 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '3609a3613698c0c62f47f1a4d58bd1ba18556613', my replication IDs are '277a1a1e23b24102f3a128fbb75a34fc57c0acdb' and '0000000000000000000000000000000000000000')
+72018:M 23 May 2021 19:47:55.305 * Starting BGSAVE for SYNC with target: disk
+72018:M 23 May 2021 19:47:55.306 * Background saving started by pid 72179
+72179:C 23 May 2021 19:47:55.308 * DB saved on disk
+72018:M 23 May 2021 19:47:55.373 * Background saving terminated with success
+72018:M 23 May 2021 19:47:55.373 * Synchronization with replica 127.0.0.1:6372 succeeded
+72018:M 23 May 2021 19:51:14.389 # User requested shutdown...
+72018:M 23 May 2021 19:51:14.390 * Saving the final RDB snapshot before exiting.
+72018:M 23 May 2021 19:51:14.391 * DB saved on disk
+72018:M 23 May 2021 19:51:14.391 * Removing the pid file.
+72018:M 23 May 2021 19:51:14.391 # Redis is now ready to exit, bye bye...
+73391:C 23 May 2021 19:53:54.868 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+73391:C 23 May 2021 19:53:54.868 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=73391, just started
+73391:C 23 May 2021 19:53:54.868 # Configuration loaded
+73391:M 23 May 2021 19:53:54.871 * Increased maximum number of open files to 10032 (it was originally set to 256).
+73391:M 23 May 2021 19:53:54.871 * monotonic clock: POSIX clock_gettime
+73391:M 23 May 2021 19:53:54.872 * Running mode=standalone, port=6370.
+73391:M 23 May 2021 19:53:54.873 # Server initialized
+73391:M 23 May 2021 19:53:54.873 * Loading RDB produced by version 6.2.3
+73391:M 23 May 2021 19:53:54.873 * RDB age 160 seconds
+73391:M 23 May 2021 19:53:54.874 * RDB memory usage when created 2.09 Mb
+73391:M 23 May 2021 19:53:54.874 * DB loaded from disk: 0.001 seconds
+73391:M 23 May 2021 19:53:54.874 * Ready to accept connections
+73391:M 23 May 2021 19:53:55.183 * Replica 127.0.0.1:6371 asks for synchronization
+73391:M 23 May 2021 19:53:55.183 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '277a1a1e23b24102f3a128fbb75a34fc57c0acdb', my replication IDs are '2401e1cb254473eebc4796194319e9c520c57755' and '0000000000000000000000000000000000000000')
+73391:M 23 May 2021 19:53:55.183 * Replication backlog created, my new replication IDs are '67131fa2b29a21d10197e7364dafc3502b5d30d0' and '0000000000000000000000000000000000000000'
+73391:M 23 May 2021 19:53:55.183 * Starting BGSAVE for SYNC with target: disk
+73391:M 23 May 2021 19:53:55.184 * Background saving started by pid 73400
+73400:C 23 May 2021 19:53:55.186 * DB saved on disk
+73391:M 23 May 2021 19:53:55.279 * Background saving terminated with success
+73391:M 23 May 2021 19:53:55.279 * Synchronization with replica 127.0.0.1:6371 succeeded
+73391:M 23 May 2021 19:53:55.591 * Replica 127.0.0.1:6372 asks for synchronization
+73391:M 23 May 2021 19:53:55.591 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '277a1a1e23b24102f3a128fbb75a34fc57c0acdb', my replication IDs are '67131fa2b29a21d10197e7364dafc3502b5d30d0' and '0000000000000000000000000000000000000000')
+73391:M 23 May 2021 19:53:55.592 * Starting BGSAVE for SYNC with target: disk
+73391:M 23 May 2021 19:53:55.592 * Background saving started by pid 73401
+73401:C 23 May 2021 19:53:55.594 * DB saved on disk
+73391:M 23 May 2021 19:53:55.684 * Background saving terminated with success
+73391:M 23 May 2021 19:53:55.685 * Synchronization with replica 127.0.0.1:6372 succeeded
+73391:M 23 May 2021 20:02:59.063 # User requested shutdown...
+73391:M 23 May 2021 20:02:59.065 * Saving the final RDB snapshot before exiting.
+73391:M 23 May 2021 20:02:59.067 * DB saved on disk
+73391:M 23 May 2021 20:02:59.067 * Removing the pid file.
+73391:M 23 May 2021 20:02:59.068 # Redis is now ready to exit, bye bye...
+75904:C 23 May 2021 20:06:52.126 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+75904:C 23 May 2021 20:06:52.127 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=75904, just started
+75904:C 23 May 2021 20:06:52.127 # Configuration loaded
+75904:M 23 May 2021 20:06:52.128 * Increased maximum number of open files to 10032 (it was originally set to 256).
+75904:M 23 May 2021 20:06:52.129 * monotonic clock: POSIX clock_gettime
+75904:M 23 May 2021 20:06:52.131 * Running mode=standalone, port=6370.
+75904:M 23 May 2021 20:06:52.131 # Server initialized
+75904:M 23 May 2021 20:06:52.132 * Loading RDB produced by version 6.2.3
+75904:M 23 May 2021 20:06:52.132 * RDB age 233 seconds
+75904:M 23 May 2021 20:06:52.133 * RDB memory usage when created 2.08 Mb
+75904:M 23 May 2021 20:06:52.133 * DB loaded from disk: 0.001 seconds
+75904:M 23 May 2021 20:06:52.133 * Ready to accept connections
+75904:M 23 May 2021 20:06:52.213 * Replica 127.0.0.1:6371 asks for synchronization
+75904:M 23 May 2021 20:06:52.214 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '67131fa2b29a21d10197e7364dafc3502b5d30d0', my replication IDs are '94a3ab6e982105bf9734e46aafc759abe523bcdc' and '0000000000000000000000000000000000000000')
+75904:M 23 May 2021 20:06:52.214 * Replication backlog created, my new replication IDs are '86aaf6085745334df3c96e9d3f5c074f4d039987' and '0000000000000000000000000000000000000000'
+75904:M 23 May 2021 20:06:52.214 * Starting BGSAVE for SYNC with target: disk
+75904:M 23 May 2021 20:06:52.215 * Background saving started by pid 75911
+75911:C 23 May 2021 20:06:52.217 * DB saved on disk
+75904:M 23 May 2021 20:06:52.235 * Background saving terminated with success
+75904:M 23 May 2021 20:06:52.235 * Synchronization with replica 127.0.0.1:6371 succeeded
+75904:M 23 May 2021 20:06:52.689 * Replica 127.0.0.1:6372 asks for synchronization
+75904:M 23 May 2021 20:06:52.689 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '67131fa2b29a21d10197e7364dafc3502b5d30d0', my replication IDs are '86aaf6085745334df3c96e9d3f5c074f4d039987' and '0000000000000000000000000000000000000000')
+75904:M 23 May 2021 20:06:52.690 * Starting BGSAVE for SYNC with target: disk
+75904:M 23 May 2021 20:06:52.691 * Background saving started by pid 75912
+75912:C 23 May 2021 20:06:52.693 * DB saved on disk
+75904:M 23 May 2021 20:06:52.743 * Background saving terminated with success
+75904:M 23 May 2021 20:06:52.744 * Synchronization with replica 127.0.0.1:6372 succeeded
+75904:M 23 May 2021 20:10:03.852 # User requested shutdown...
+75904:M 23 May 2021 20:10:03.853 * Saving the final RDB snapshot before exiting.
+75904:M 23 May 2021 20:10:03.854 * DB saved on disk
+75904:M 23 May 2021 20:10:03.854 * Removing the pid file.
+75904:M 23 May 2021 20:10:03.855 # Redis is now ready to exit, bye bye...
+77019:C 23 May 2021 20:12:26.378 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+77019:C 23 May 2021 20:12:26.379 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=77019, just started
+77019:C 23 May 2021 20:12:26.379 # Configuration loaded
+77019:M 23 May 2021 20:12:26.381 * Increased maximum number of open files to 10032 (it was originally set to 256).
+77019:M 23 May 2021 20:12:26.381 * monotonic clock: POSIX clock_gettime
+77019:M 23 May 2021 20:12:26.383 * Running mode=standalone, port=6370.
+77019:M 23 May 2021 20:12:26.384 # Server initialized
+77019:M 23 May 2021 20:12:26.384 * Loading RDB produced by version 6.2.3
+77019:M 23 May 2021 20:12:26.385 * RDB age 143 seconds
+77019:M 23 May 2021 20:12:26.385 * RDB memory usage when created 2.16 Mb
+77019:M 23 May 2021 20:12:26.385 * DB loaded from disk: 0.001 seconds
+77019:M 23 May 2021 20:12:26.385 * Ready to accept connections
+77019:S 23 May 2021 20:12:36.902 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+77019:S 23 May 2021 20:12:36.905 * Connecting to MASTER 127.0.0.1:6371
+77019:S 23 May 2021 20:12:36.906 * MASTER <-> REPLICA sync started
+77019:S 23 May 2021 20:12:36.907 * REPLICAOF 127.0.0.1:6371 enabled (user request from 'id=3 addr=127.0.0.1:59119 laddr=127.0.0.1:6370 fd=7 name=sentinel-969c3c88-cmd age=10 idle=0 flags=x db=0 sub=0 psub=0 multi=4 qbuf=196 qbuf-free=44854 argv-mem=4 obl=45 oll=0 omem=0 tot-mem=62500 events=r cmd=exec user=default redir=-1')
+77019:S 23 May 2021 20:12:36.911 # CONFIG REWRITE executed with success.
+77019:S 23 May 2021 20:12:36.912 * Non blocking connect for SYNC fired the event.
+77019:S 23 May 2021 20:12:36.913 * Master replied to PING, replication can continue...
+77019:S 23 May 2021 20:12:36.914 * Trying a partial resynchronization (request f171fa43743f14bbab755b8dfa346e3466e88ec1:1).
+77019:S 23 May 2021 20:12:36.918 * Full resync from master: 0b4f249fa2f4fad2e247b75ec778875635113240:50365
+77019:S 23 May 2021 20:12:36.919 * Discarding previously cached master state.
+77019:S 23 May 2021 20:12:36.990 * MASTER <-> REPLICA sync: receiving 219 bytes from master to disk
+77019:S 23 May 2021 20:12:36.990 * MASTER <-> REPLICA sync: Flushing old data
+77019:S 23 May 2021 20:12:36.991 * MASTER <-> REPLICA sync: Loading DB in memory
+77019:S 23 May 2021 20:12:36.992 * Loading RDB produced by version 6.2.3
+77019:S 23 May 2021 20:12:36.992 * RDB age 0 seconds
+77019:S 23 May 2021 20:12:36.992 * RDB memory usage when created 2.16 Mb
+77019:S 23 May 2021 20:12:36.993 * MASTER <-> REPLICA sync: Finished with success
